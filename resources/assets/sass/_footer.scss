@@ -77,6 +77,9 @@
             margin-top : 2rem;
         }
         span {
+            .fas {
+                padding-left: 10px;
+            }
             @include breakpoint (medium) {
                 padding-right: 2rem;
             }
