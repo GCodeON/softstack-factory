@@ -2,7 +2,7 @@
     <div id="support-form-container">
         <form @submit.prevent data-abide novalidate class="text-white">
             <div class="form-section section-one" v-if="!formComplete">
-                <p>Why do you support protecting Vermont’s youth from tobacco?</p>
+                <p>Support SoftStack Factory by leaving a testimonial</p>
                 <textarea rows="4" cols="50"
                           v-model="data.message"
                           id="why-support-textarea"
@@ -34,7 +34,7 @@
                     <div class="row align-center">
                         <div class="column medium-9">
                             <h5>Thank You!</h5>
-                            <p>Ready to strengthen your support? Help prevent the next generation of tobacco users when you <strong>share this message.</strong>
+                            <p>Don't forget to <strong>share your testimonal</strong>
                             </p>
                             <a @click.prevent="shareFacebook()" target="_blank" class="button
                         square light-button"><i class="fab fa-facebook-f"></i></a>
@@ -120,8 +120,8 @@
                 var host    = [location.protocol, location.host].join('//'),
                     options = {
                         'og:url'         : host + '#get-involved',
-                        'og:title'       : 'CounterBalance Vermont',
-                        'og:description' : 'I just wrote a message for CounterBalance to show my concern. Will you join me in protecting Vermont’s youth from being targeted by the tobacco industry?',
+                        'og:title'       : 'SoftStack Factory',
+                        'og:description' : 'So you want to start a career in the Technology industry? If you are motivated and want to find a new passion for software development SoftStack Factory maybe the program for you!',
                         'og:image'       : host + '/images/social-share.jpg',
                         'og:image:height': 630,
                         'og:image:width' : 1200
