@@ -3,7 +3,7 @@
     <div class="card with-image" style='background-image: url("{{$imageSrc}}")'>
     @else
     <div class="card">
-        <img class="quote" src="/images/quote.svg">
+        <img class="quote" src="{{$imageSrc}}">
         <div class="card-section">
             <p>{{$content}}</p>
             <h4>{{$name}}</h4>
