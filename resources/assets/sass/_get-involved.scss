@@ -1,0 +1,74 @@
+body.get-involved {
+    margin-top: 0;
+    .image-wrapper::before {
+        background-image : url('/images/get-involved-main.png');
+    }
+    .section-title {
+        color: $brand-darkblue;
+        @include breakpoint(small only) {
+            margin-bottom: 2rem;
+        }
+
+    }
+    ul {
+        li {
+            font-weight: normal;
+            font-size: 1.1em;
+            line-height: 1.5;
+            text-align: left;
+            margin-bottom: 5px;
+            @include breakpoint(medium) {
+                font-size: 1.4em;
+            }
+        }
+    }
+    .grid-like {
+        background-color: white;
+        .row {
+            padding: 2rem 0;
+            @include breakpoint(medium) {
+                padding: 5rem 0;
+            }
+        }
+        p {
+            color: $brand-grey;
+            @include breakpoint(medium) {
+                margin-bottom: 2rem;
+            }
+        }
+        p:last-child {
+            margin-bottom: 3rem;
+        }
+        h4 {
+            font-size: 1.4em;
+            line-height: 1;
+            margin-bottom: 2rem;
+        }
+        h3 {
+            @include breakpoint(medium) {
+                font-size: 40px;
+                line-height: 1.2;
+            }
+            span {
+                display: block;
+            }
+        }
+        @include breakpoint(small only) {
+            p, h3, h4 {
+                text-align: left;
+            }
+        }
+        select {
+            font-size: 16px;
+        }
+        .locations {
+            li {
+                list-style: none;
+                color: #353A3E;
+                font-size: 16px;
+            }
+        }
+
+
+    }
+}

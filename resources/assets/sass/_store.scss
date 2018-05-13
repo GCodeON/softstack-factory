@@ -1,0 +1,65 @@
+.store-container {
+    position: relative;
+    .info {
+        position: absolute;
+        @include breakpoint(medium down) {
+            display: none;
+        }
+    }
+    .clean {
+        display: none;
+    }
+    @include breakpoint(medium) {
+        .clean {
+            display: block;
+        }
+        .with-dots {
+            display : none;
+        }
+    }
+
+    button {
+        padding: 10px;
+        background: #100e9f !important;
+        border-radius: 50%;
+        border: 5px solid #0098ce;
+    }
+
+    .image-hover .info.info-1{
+        left: 530px;
+        top: 345px;
+    }
+    .image-hover .info.info-2{
+        left: 615px;
+        top: 165px;
+    }
+    .image-hover .info.info-3{
+        left: 614px;
+        top: 460px;
+    }
+    .image-hover .info.info-4{
+        left: 70px;
+        top: 320px;
+    }
+    .image-hover .info.info-5{
+        left: 275px;
+        top: 160px;
+    }
+    .image-hover .info.info-6{
+        left: 150px;
+        top: 105px;
+    }
+    .blue-overlay {
+        position: absolute;
+        left: 280px;
+        top: 500px;
+        z-index: 2;
+        width: 50%;
+    }
+    .bkg-img {
+
+    }
+    .box-1-bkg {
+        padding: 14px 10px;
+    }
+}

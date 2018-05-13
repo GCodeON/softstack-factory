@@ -1,0 +1,46 @@
+{
+  "hero" : {
+    "title"   : "",
+    "content" : ""
+  },
+  "generalCards": [
+    {
+      "title"     : "",
+      "imageSrc"  : "",
+      "imageAlt"  : "",
+      "content"   : " "
+    },
+    {
+      "title"      : "",
+      "imageSrc"   : "",
+      "imageAlt"   : "",
+      "content"    : " "
+    },
+    {
+      "title"      : "",
+      "imageSrc"   : "",
+      "imageAlt"   : "",
+      "content"    : " "
+    }
+  ],
+  "flavoredCards" : [
+    {
+      "title"     : "",
+      "imageSrc"  : "",
+      "imageAlt"  : "",
+      "content"   : " "
+    },
+    {
+      "title"      : "",
+      "imageSrc"   : "",
+      "imageAlt"   : "",
+      "content"    : " "
+    },
+    {
+      "title"      : "",
+      "imageSrc"   : "",
+      "imageAlt"   : "",
+      "content"    : " "
+    }
+  ]
+}

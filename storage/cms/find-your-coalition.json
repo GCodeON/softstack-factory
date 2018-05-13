@@ -1,0 +1,171 @@
+{"counties": {
+    "addison" : {
+        "locations" : [
+            {
+                "name": "Your area doesn't have a tobacco coalition at this time. You can connect with <a href='https://www.facebook.com/CoalitionForATobaccoFreeVermont/' target='_blank'>the Coalition for a Tobacco Free Vermont</a> which works on behalf of a healthier state"
+            }
+        ]
+    },
+    "bennington" : {
+        "locations": [
+            {
+                "name": "The Collaborative",
+                "address1": "<a href='https://goo.gl/maps/snsvqBbqFgk' target='_blank'>91 VT RT 11</a>",
+                "address2": "<a href='https://goo.gl/maps/snsvqBbqFgk' target='_blank'>Londonderry, VT 05148</a>",
+                "phone": " <a href='tel:802-824-4200' target='_blank'>802-824-4200</a>",
+                "contact": "Victoria Silsby | <a href='mailto:Victoria@thecollaborative.us' target='_blank'>Victoria@thecollaborative.us</a>",
+                "email": "Maryann Morris | <a href='mailto:Maryann@thecollaborative.us' target='_blank'>Maryann@thecollaborative.us</a>"
+            }
+        ]
+    },
+    "caledonia" : {
+        "locations" : [
+            {
+                "name": "Northeastern Vermont Regional Hospital",
+                "address1": "<a href='https://goo.gl/maps/Nck6VFWqgW82' target='_blank'>297 Summer Street</a>",
+                "address2": "<a href='https://goo.gl/maps/Nck6VFWqgW82' target='_blank'>St. Johnsbury, VT 05819</a>",
+                "phone": "<a href='tel:802-748-8400' target='_blank'>802-748-8400</a>",
+                "contact": "Cheryl Chandler | <a href='mailto:c.chandler@nvrh.org' target='_blank'>c.chandler@nvrh.org</a>",
+                "email": "Tennyson Marceau | <a href='mailto:t.marceau@nvrh.org' target='_blank'>t.marceau@nvrh.org</a>"
+            }
+        ]
+    },
+    "chittenden" : {
+        "locations" : [
+            {
+                "name": "Burlington Partnership for a Healthy Community",
+                "address1": "<a href='https://goo.gl/maps/ZJ1U5e5j6s92' target='_blank'>236 Riverside Avenue</a>",
+                "address2": "<a href='https://goo.gl/maps/ZJ1U5e5j6s92' target='_blank'>Burlington, VT 05401</a>",
+                "phone": "<a href='tel:802-652-0997' target='_blank'>802-652-0997</a>",
+                "contact": "Mariah Sanderson | <a href='mailto:mariah@burlingtonpartnership.org' target='_blank'>mariah@burlingtonpartnership.org</a>",
+                "email": "Tara Rueckert | <a href='mailto:tara@burlingtonpartnership.org' target='_blank'>tara@burlingtonpartnership.org</a>"
+            },
+            {
+                "name": "Milton Community Youth Coalition",
+                "address1": "<a href='https://goo.gl/maps/Pe3k4og96sR2' target='_blank'>164 Route 7 South</a>",
+                "address2": "<a href='https://goo.gl/maps/Pe3k4og96sR2' target='_blank'>Milton, VT 05468</a>",
+                "phone": "<a href='tel:802-893-1009' target='_blank'>802-893-1009</a> <br> <a href='tel:802-310-1646' target='_blank'>802-310-1646</a>",
+                "contact": "Tony Moulton",
+                "email": "<a href='mailto:tmoulton@miltonyouth.org' target='_blank'>tmoulton@miltonyouth.org</a>"
+            },
+            {
+                "name": "Winooski Partnership for Prevention",
+                "address1": "<a href='https://goo.gl/maps/Un1QJZBdi662' target='_blank'>32 Malletts Bay Avenue</a>",
+                "address2": "<a href='https://goo.gl/maps/Un1QJZBdi662' target='_blank'>Winooski, VT 05404</a>",
+                "phone": "<a href='tel:802-655-4565' target='_blank'>802-655-4565</a>",
+                "contact": "Kate Nugent | <a href='mailto:katenugent@winooskiprevention.org' target='_blank'>katenugent@winooskiprevention.org</a>",
+                "email": "Whitney Keefner | <a href='mailto:wkeefner@winooskiprevention.org' target='_blank'>wkeefner@winooskiprevention.org</a>"
+
+            }
+        ]
+    },
+    "essex": {
+        "locations": [
+            {
+                "name": "Your area doesn't have a tobacco coalition at this time. You can connect with <a href='https://www.facebook.com/CoalitionForATobaccoFreeVermont/' target='_blank'>the Coalition for a Tobacco Free Vermont</a> which works on behalf of a healthier state"
+            }
+        ]
+    },
+    "franklin": {
+        "locations": [
+            {
+                "name": "Franklin Grand Isle Tobacco Prevention Coalition",
+                "address1": "<a href='https://goo.gl/maps/JxgDZtfdXxE2' target='_blank'>133 Fairfield Street</a>",
+                "address2": "<a href='https://goo.gl/maps/JxgDZtfdXxE2' target='_blank'>St. Albans, VT 05478</a>",
+                "phone": "<a href='tel:802-524-1296' target='_blank'>802-524-1296</a>",
+                "contact": "Amy Brewer",
+                "email": "<a href='mailto:abrewer@nmcinc.org' target='_blank'>abrewer@nmcinc.org</a>"
+            }
+        ]
+    },
+    "lamoille": {
+        "locations": [
+            {
+                "name": "Healthy Lamoille Valley",
+                "address1": "<a href='https://goo.gl/maps/tU8PqfQA5LF2' target='_blank'>480 Cady's Falls Road</a>",
+                "address2": "<a href='https://goo.gl/maps/tU8PqfQA5LF2' target='_blank'>Morristown, VT 05661</a>",
+                "phone": "<a href='tel:802-730-6599' target='_blank'>802-730-6599</a>",
+                "contact": "Jessica Bickford | <a href='mailto:jessica@healthylamoillevalley.org' target='_blank'>jessica@healthylamoillevalley.org</a>",
+                "email": "Allison Link | <a href='mailto:alisson@healthylamoillevalley.org' target='_blank'>alisson@healthylamoillevalley.org</a>"
+            }
+        ]
+    },
+    "orleans": {
+        "locations": [
+            {
+                "name": "Northeast Kingdom Learning Services",
+                "address1": "<a href='https://goo.gl/maps/C3HC9XHemoz' target='_blank'>55 Seymour Lane, Suite 11</a>",
+                "address2": "<a href='https://goo.gl/maps/C3HC9XHemoz' target='_blank'>Newport, VT 05855</a>",
+                "phone": "<a href='tel:802-334-6532' target='_blank'>802-334-6532</a>",
+                "contact": "Michelle Tarryk | <a href='mailto:michelle.tarryk@neklsvt.org' target='_blank'>michelle.tarryk@neklsvt.org</a>",
+                "email": "Ally Howell | <a href='mailto:allyson.howell@neklsvt.org' target='_blank'>allyson.howell@neklsvt.org</a>"
+            }
+        ]
+    },
+    "orange": {
+        "locations": [
+            {
+                "name": "Your area doesn't have a tobacco coalition at this time. You can connect with <a href='https://www.facebook.com/CoalitionForATobaccoFreeVermont/' target='_blank'>the Coalition for a Tobacco Free Vermont</a> which works on behalf of a healthier state"
+            }
+        ]
+    },
+    "rutland": {
+        "locations": [
+            {
+                "name": "Your area doesn't have a tobacco coalition at this time. You can connect with <a href='https://www.facebook.com/CoalitionForATobaccoFreeVermont/' target='_blank'>the Coalition for a Tobacco Free Vermont</a> which works on behalf of a healthier state"
+            }
+        ]
+    },
+    "washington": {
+        "locations": [
+            {
+                "name": "Central Vermont New Directions Coalition",
+                "address1": "<a href='https://goo.gl/maps/Dex1d1RFFKU2' target='_blank'>73 Main Street, #33</a>",
+                "address2": "<a href='https://goo.gl/maps/Dex1d1RFFKU2' target='_blank'>Montpelier, VT 05602</a>",
+                "phone": "<a href='tel:802-223-4949' target='_blank'>802-223-4949</a>",
+                "contact": "Ann Gilbert | <a href='mailto:agilbert@cvndc.org' target='_blank'>agilbert@cvndc.org</a>",
+                "email": "Ginny Burley | <a href='mailto:gburley@cvndc.org' target='_blank'>gburley@cvndc.org</a>"
+            }
+        ]
+    },
+    "windham": {
+        "locations": [
+            {
+                "name": "Brattleboro Area Prevention Coalition",
+                "address1": "<a href='https://goo.gl/maps/L7EK51FRpnu' target='_blank'>130 Austine Drive #202</a>",
+                "address2": "<a href='https://goo.gl/maps/L7EK51FRpnu' target='_blank'>Brattleboro, VT 05301</a>",
+                "phone": "<a href='tel:802-257-2175' target='_blank'>802-257-2175</a>",
+                "contact": "Cassandra Holloway | <a href='mailto:cassandrabapc@gmail.com' target='_blank'>cassandrabapc@gmail.com</a> <br> Gail Bourque | <a href='mailto:gail.bourque@youthservicesinc.org' target='_blank'>gail.bourque@youthservicesinc.org</a>",
+                "email": "Rolf Parker | <a href='mailto:olf.bapc@gmail.com' target='_blank'>olf.bapc@gmail.com</a>"
+            },
+            {
+                "name": "Deerfield Valley Community Partnership",
+                "address1": "<a href='https://goo.gl/maps/Crv19Y4DNNQ2' target='_blank'>210 Route 9 East</a>",
+                "address2": "<a href='https://goo.gl/maps/Crv19Y4DNNQ2' target='_blank'>Wilmington, VT 05363</a>",
+                "phone": "<a href='tel:802-464-2202' target='_blank'>802-464-2202</a>",
+                "contact": "Cindy Hayford | <a href='mailto:chayford@myfairpoint.net' target='_blank'>chayford@myfairpoint.net</a>",
+                "email": "Shelley Park | <a href='mailto:aspark802@gmail.com' target='_blank'>aspark802@gmail.com</a>"
+            },
+            {
+                "name": "Greater Falls Connections",
+                "address1": "<a href='https://goo.gl/maps/bfdArkit72M2' target='_blank'>44 School Street</a>",
+                "address2": "<a href='https://goo.gl/maps/bfdArkit72M2' target='_blank'>Bellows Falls, VT 05101</a>",
+                "phone": "<a href='tel:802-463-9927 ext 209' target='_blank'>802-463-9927 ext 209</a>",
+                "contact": "Laura Schairbaum",
+                "email": "<a href='mailto:laura@greaterfallsconnections.org' target='_blank'>laura@greaterfallsconnections.org</a>"
+            }
+        ]
+    },
+    "windsor": {
+        "locations": [
+            {
+                "name": "Mt. Ascutney Prevention Partnership",
+                "address1": "<a href='https://goo.gl/maps/Q47AkW11mKp' target='_blank'>289 Country Club Road</a>",
+                "address2": "<a href='https://goo.gl/maps/Q47AkW11mKp' target='_blank'>Windsor, Vt 05089</a>",
+                "phone": "<a href='tel:802-674-2900 ext.23' target='_blank'>802-674-2900 ext.23</a>",
+                "contact": "Courtney Hillhouse | <a href='mailto:courtney.hillhouse@mahhc.org' target='_blank'>courtney.hillhouse@mahhc.org</a>",
+                "email": "Alice Stewart | <a href='mailto:alice.stewart@mahhc.org' target='_blank'>alice.stewart@mahhc.org</a>"
+            }
+        ]
+    }
+}}

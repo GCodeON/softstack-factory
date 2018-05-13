@@ -1,0 +1,45 @@
+.about {
+    .image-wrapper::before {
+        background-image : url('/images/about-main.png');
+    }
+    section.grid-like {
+        @include breakpoint(medium) {
+            .row:nth-child(2) {
+                margin-top : 5rem;
+            }
+        }
+        h3 {
+            color         : $brand-grey;
+            @extend .Montserrat-ExtraLight;
+            font-size     : 1.4rem;
+            line-height   : 1.3;
+            @include breakpoint(medium) {
+                font-size   : 2rem;
+                line-height : 1.2;
+            }
+            @include breakpoint(small only) {
+                margin-top: 0;
+            }
+        }
+        p {
+            color : $brand-grey;
+        }
+    }
+
+    section.fact {
+        @extend .dark-gradient;
+        p {
+            color       : white;
+            font-size   : 25px;
+            font-style  : italic;
+            padding     : 80px 20px;
+            line-height : 2;
+
+            @include breakpoint(medium) {
+                font-size   : 32px;
+                padding     : 80px;
+                line-height : 1.5;
+            }
+        }
+    }
+}

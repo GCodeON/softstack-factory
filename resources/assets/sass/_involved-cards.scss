@@ -1,0 +1,107 @@
+.get-involved {
+    @extend .dark-gradient;
+    background-size : 100%;
+    margin-top      : 80px;
+
+    .section-title {
+        @include breakpoint(medium) {
+            margin-top : 80px;
+        }
+        color      : white;
+    }
+
+    p {
+        color : white;
+    }
+    .support-cards {
+        padding-bottom : 5rem;
+        .clearfix {
+            width : 100%;
+        }
+        .view-more {
+            color          : white;
+            float          : right;
+            text-transform : uppercase;
+        }
+        @include breakpoint(medium) {
+            .card {
+                min-height : 525px;
+            }
+        }
+    }
+
+    .card {
+        height     : 100%;
+        padding    : 2rem 1rem;
+        text-align : center;
+        border-top : 5px solid #00B9FF;
+        box-shadow : -1px 12px 30px 0px rgba(0, 0, 0, 0.3);
+        &.with-image {
+            padding         : 0;
+            border          : 0;
+            background-size : cover;
+        }
+        .quote {
+            max-width : 50px;
+            margin    : 2rem auto 1rem;
+        }
+        p {
+            color          : #000000;
+            padding-bottom : 2rem;
+            font-size      : 26px;
+        }
+        h4 {
+            color : #0098D1;
+        }
+        sub {
+            color : #353A3E;
+        }
+
+    }
+    form {
+        p {
+            font-size: 20px;
+            line-height: 28px;
+            @include breakpoint(medium) {
+                font-size: 28px;
+                line-height: 34px;
+            }
+        }
+    }
+
+    label {
+        //color          : white;
+        text-align     : left;
+        text-transform : uppercase;
+    }
+    @include breakpoint(medium) {
+        #full, #zip {
+            float : left;
+        }
+        #full {
+            width : 70%;
+        }
+        #zip {
+            padding-left : 2%;
+            width        : 30%;
+        }
+    }
+    .thank-you {
+        h5 {
+            color     : white;
+            font-size : 4em;
+            padding   : 1rem;
+        }
+        p {
+            padding-bottom : 2rem;
+        }
+
+    }
+    [type='text'] {
+        min-height : 60px;
+        //border     : 1px solid white;
+    }
+}
+
+
+

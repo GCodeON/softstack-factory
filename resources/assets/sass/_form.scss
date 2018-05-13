@@ -1,0 +1,125 @@
+[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {
+    color : white;
+    @include background-gradient(rgba(255, 255, 255, 0.1), transparent, 'vertical');
+    &:focus, &:visited {
+        @include background-gradient(rgba(255, 255, 255, 0.1), transparent, 'vertical');
+    }
+    &.is-invalid-input {
+        color : red;
+    }
+}
+
+.is-invalid-input {
+    border : 1px solid red;
+}
+
+.is-invalid-label {
+    font-weight : bold;
+}
+
+form.text-white {
+    label {
+        color : white;
+    }
+}
+
+.thank-you {
+    //border        : 1px solid rgba(255, 255, 255, .5);
+    border-radius : 4px;
+    padding: 2rem 0 1rem 0;
+    h5 {
+        font-size : rem-calc(50px);
+    }
+
+    p {
+        margin-top : 1rem;
+    }
+}
+
+.form-section.section-two {
+    @include breakpoint(medium) {
+        margin-bottom : $global-margin * 3;
+    }
+}
+
+.form-error {
+    margin-top: 5px;
+}
+
+input::placeholder {
+    font-style : italic;
+}
+
+label {
+    //font-weight: bold;
+    &.lead {
+        font-weight   : bold;
+        margin-bottom : $global-margin / 4;
+    }
+
+    //font-size     : $lead-font-size;
+
+    > input {
+        &[type=file],
+        &[type=checkbox],
+        &[type=radio] {
+            margin-bottom : 0;
+        }
+    }
+
+    @include breakpoint(medium) {
+        font-size : $form-label-font-size
+    }
+
+    margin-bottom : $global-margin;
+}
+
+.form-complete {
+    h2 {
+        text-align : center;
+    }
+
+    svg {
+
+        @include breakpoint(small only) {
+            display : none;
+
+        }
+    }
+}
+
+.support-container {
+    .button,
+    button {
+        min-width  : 0;
+        text-align : left;
+        min-height : 55px;
+        color      : white;
+
+        @include breakpoint(small only) {
+
+            min-height : 55px;
+            &.submit {
+                width : auto;
+                span {
+                    display : inline-block;
+                }
+            }
+            &.back {
+                width            : auto;
+                background-color : get-color(secondary);
+            }
+
+        }
+
+        &.back {
+            background-color : get-color(secondary);
+        }
+
+        @include breakpoint(medium) {
+            width : auto;
+        }
+    }
+}
+
+

@@ -1,0 +1,75 @@
+{
+  "hero" : {
+    "title": "",
+    "content": "Help counter the tobacco industry’s influence in the retail environment and its impact on Vermont’s youth."
+  },
+  "support" : {
+    "formHeader": "Why are you concerned about flavored tobacco products?",
+    "showTotal" : "7"
+  },
+  "cards": [
+    {
+      "content": "By making flavored tobacco products attractive to young people - they get hooked at an early age, and it is very hard to quit! Oral cancer is a very real concern",
+      "name": "Rhea Clark",
+      "location": "Wilmington",
+      "imageSrc": "",
+      "imageAlt": ""
+    },
+    {
+      "content": "Flavored tobacco products provide an easy pathway to possible lifelong addiction for our kids to tobacco use",
+      "name": "Karen Avery",
+      "location": "West Dover",
+      "imageSrc": "",
+      "imageAlt": ""
+    },
+    {
+      "content": "People are unaware that the effects are the same as smoking or chewing tobacco",
+      "name": "Amra Jusupovic",
+      "location": "Burlington",
+      "imageSrc": "",
+      "imageAlt": ""
+    },
+    {
+      "content": "The safety of my lungs",
+      "name": "Avery Smith",
+      "location": "Burlington",
+      "imageSrc": "",
+      "imageAlt": ""
+    },
+    {
+      "content": "",
+      "name": "",
+      "location": "",
+      "imageSrc": "/images/Card1.png",
+      "imageAlt": ""
+    },
+    {
+      "content": "Tobacco can damage your lungs, and overtime make it hard to breathe",
+      "name": "Madison Ashford",
+      "location": "Williamstown",
+      "imageSrc": "",
+      "imageAlt": ""
+    },
+    {
+      "content": "Because it causes seizures",
+      "name": "Starr Wolfe",
+      "location": "Brattleboro",
+      "imageSrc": "",
+      "imageAlt": ""
+    },
+    {
+      "content": "People should never consider vapors as a healthy alternative to smoking. 20 yrs from now we may find them more harmful than actual cigarettes",
+      "name": "Zachary Nazman",
+      "location": "Brattleboro",
+      "imageSrc": "",
+      "imageAlt": ""
+    },
+    {
+      "content": "It is very bad for you, highly addictive and may lead to smoking",
+      "name": "Rachel Kiddy",
+      "location": "Jacksonville",
+      "imageSrc": "",
+      "imageAlt": ""
+    }
+  ]
+}

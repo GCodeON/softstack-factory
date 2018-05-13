@@ -1,0 +1,8 @@
+.light-gradient {
+    @include background-gradient(#00B9FF, #00A2E0, 'vertical');
+}
+
+.dark-gradient {
+    @include background-gradient(#446BB4, #2F3E94, 'vertical');
+}
+

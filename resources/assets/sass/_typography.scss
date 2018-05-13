@@ -1,0 +1,117 @@
+.Montserrat, body {
+    font-family : 'Montserrat', sans-serif;
+}
+
+.AnnieTelescope {
+    font-family : 'Annie Use Your Telescope', cursive;
+    font-weight: lighter;
+}
+
+.Black-Diamond-reg {
+    font-family : 'Black-Diamond-reg', sans-serif;
+    font-weight: lighter;
+}
+
+.Montserrat-Bold {
+    font-family : 'Montserrat-Bold', sans-serif;
+}
+
+.Montserrat-ExtraBold {
+    font-family : 'Montserrat-ExtraBold', sans-serif;
+}
+
+.Montserrat-ExtraLight {
+    font-family : 'Montserrat-ExtraLight', sans-serif;
+}
+
+.Montserrat-Light {
+    font-family : 'Montserrat-Light', sans-serif;
+}
+
+.Montserrat-Lightitalic {
+    font-family : 'Montserrat-Lightitalic', sans-serif;
+}
+
+
+
+html,
+.lead {
+    @include breakpoint(medium) {
+        //font-size: 18px;
+    }
+
+}
+
+.h1, h1, .h2, h2, .h3, h3, .h4, h4, .headline {
+    @extend .Montserrat-ExtraBold;
+}
+
+
+.hero p, li {
+    @extend .Montserrat-ExtraLight;
+}
+
+.lead, p, .fixed-header a, .footer, .video-control-content {
+    @extend .Montserrat-Light;
+}
+
+/*button*/
+.button, .login {
+    @extend .Montserrat-ExtraBold;
+}
+
+label, fieldset, input, [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {
+    @extend .Montserrat-Light;
+}
+
+/*button*/
+.contact-us {
+    label, fieldset {
+        @extend .Montserrat-Bold;
+    }
+}
+
+
+
+.support-cards {
+    p {
+        @extend .AnnieTelescope;
+
+    }
+    .name, h4 {
+        @extend .Black-Diamond-reg;
+    }
+    sub {
+        @extend .Montserrat-Lightitalic;
+    }
+}
+
+.thank-you h5 {
+    @extend .Black-Diamond-reg;
+}
+
+
+h1, .h1 {
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    @include breakpoint(medium) {
+        font-size: 1.3em;
+        line-height: 1.3;
+
+    }
+}
+
+p, h3 {
+    &.font-32 {
+        font-size: 1.3em;
+        line-height: 1.3;
+        @include breakpoint(medium) {
+            font-size: 32px;
+            line-height: 1.2;
+        }
+    }
+}

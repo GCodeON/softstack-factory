@@ -1,0 +1,93 @@
+.footer {
+    @extend .dark-gradient;
+    padding: 3rem;
+    color: white;
+    @include breakpoint (small only) {
+        text-align: center;
+    }
+    a {
+        color: white;
+    }
+    .logo {
+        width : 100px;
+        margin: auto;
+        @include breakpoint (medium) {
+            float: left;
+        }
+
+    }
+    .icons {
+        height: 100%;
+        @include breakpoint (small only) {
+            display: block;
+            margin: 2rem 0;
+        }
+        a {
+            margin: auto 1rem;
+            i {
+                font-size: 30px;
+            }
+            &:hover, &:focus {
+                color: white;
+            }
+        }
+    }
+    ul {
+        margin: 5rem 0 2rem;
+        @include breakpoint (medium) {
+            margin: 3rem 0;
+            columns: 2;
+        }
+    }
+
+    li {
+        list-style: none;
+        padding-bottom: 2rem;
+        font-size: 14px;
+        text-transform: uppercase;
+        a  {
+           text-decoration: none;
+            &:hover, &:focus {
+                color: white;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .small-text {
+        margin-top: 2rem;
+
+        @include breakpoint (medium) {
+            text-align: left;
+        }
+        p{
+            font-size: 10px;
+            margin: 0;
+        }
+    }
+
+    .contact, .login {
+        @include breakpoint (medium) {
+            text-align: right;
+        }
+    }
+
+    .login {
+        @include breakpoint (small only) {
+            margin-top : 2rem;
+        }
+        span {
+            @include breakpoint (medium) {
+                padding-right: 2rem;
+            }
+        }
+        button {
+            color: white;
+            background: transparent;
+            border: 2px solid white;
+            padding: .85rem 2rem;
+            margin-top: 2rem;
+
+        }
+    }
+}

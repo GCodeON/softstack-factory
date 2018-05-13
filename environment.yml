@@ -1,0 +1,6 @@
+DEBUG: true
+DB:
+  NAME: 'counterbalance_dev'
+  HOST: 'localhost'
+  USERNAME: 'root'
+  PASSWORD: 'root'

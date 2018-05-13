@@ -1,0 +1,18 @@
+{
+    "hero"    : {
+        "title"  : "Get The Facts",
+        "content": "SWEET. COLORFUL. TOXIC. Tobacco companies continue to target your children with candy-flavored products. They may look innocent, but these products can still get your kids addicted to tobacco."
+    },
+    "stores": {
+        "tooltip4": "Tobacco products and advertisements are often placed near candy in the store. Electronic cigarettes are also being marketed in a way that makes these products look like candy. They have many different flavors and use vibrant colors, which appeal to youth shoppers. Who do you think they are targeting? Click here [link] for more information about how the electronic cigarettes are marketed in stores.",
+        "tooltip5": "Cigarillos are attractive, easy to access, and cheap for youth. They are also just as addictive  and harmful as cigarettes.",
+        "tooltip6": "This is a 'power wall' – the large tobacco product displays usually set up behind the register. Power walls have a strong visual impact on youth and make tobacco seem more popular and available than it really is.",
+        "tooltip1": "TOBACCO ADS ARE OFTEN PLACED AT OR BELOW A YOUNG CHILD’S EYE LEVEL. ‘Eye Level is Buy Level’ because items placed at eye level are more likely to be purchased...'- British American Tobacco (BAT)",
+        "tooltip2": "This is an example of a price promotion. The tobacco industry uses many tactics to decrease theprice of their products. They know that price is one of the most powerful factors of tobacco use, especially for youth. Popular price promotions include discounts, coupons, multi-pack deals, and buy one, get one free offers."
+    },
+    "slides": {
+        "img1": "/images/store1.jpg",
+        "img2": "/images/store2.jpg",
+        "img3": "/images/store3.jpg"
+    }
+}

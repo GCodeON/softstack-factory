@@ -1,0 +1,239 @@
+body.get-the-facts {
+    .image-wrapper::before {
+        background-image : url('/images/get-facts-main.png');
+    }
+
+    section.control-act {
+        padding : 80px 0;
+
+        h2 {
+            font-size   : 25px;
+            line-height : 1.2;
+            @include breakpoint(medium) {
+                text-align  : right;
+            }
+        }
+        .highlight {
+            color: $brand-blue;
+        }
+    }
+    h2  {
+        font-size : 2.5rem;
+        @include breakpoint(medium) {
+            font-size     : 50px;
+        }
+    }
+
+    section.flavored-tobacco {
+        @extend .dark-gradient;
+        color   : white;
+        @include breakpoint(medium) {
+            padding : 80px;
+        }
+        img {
+            height : 60px;
+            margin : auto;
+            @include breakpoint(small only) {
+                margin : 4rem auto 0;
+            }
+        }
+
+        h2 {
+            color     : white;
+            margin-bottom : 0;
+            @include breakpoint(medium) {
+                margin-bottom : 80px;
+            }
+            &.bottom-line {
+                margin : 80px 0 40px 0;
+            }
+        }
+
+        h3 {
+            font-size   : 20px;
+            min-height  : 50px;
+            color       : white;
+            margin      : 2rem;
+            line-height : 1.2;
+        }
+
+        .text-col {
+            text-align : center;
+            padding    : 0 30px;
+        }
+        .closing {
+            font-size: 22px;
+            line-height: 1.3;
+            @include breakpoint(medium) {
+                font-size: 26px;
+            }
+            @include breakpoint(small only) {
+                margin: 4rem 0 0;
+            }
+        }
+    }
+
+    section.by-the-num {
+        @include breakpoint(medium) {
+            padding : 80px;
+        }
+        h2 {
+            margin-bottom : 60px;
+            @include breakpoint(medium) {
+                margin-bottom : 80px;
+            }
+        }
+
+        .stat-header {
+            margin-bottom : 30px;
+        }
+
+        .download-fact-btn {
+            margin-top : 50px;
+        }
+        p {
+            @include breakpoint(small only) {
+                margin-bottom : 4rem;
+            }
+        }
+    }
+
+    section.what-youth-see {
+        @extend .dark-gradient;
+        color      : white;
+        @include breakpoint(medium) {
+            padding    : 80px 0;
+        }
+        h2 {
+            margin-bottom : 40px;
+            color         : white;
+            padding       : 0 1rem;
+        }
+        h3 {
+            color : white;
+        }
+
+        .interactive-img {
+            margin : 40px 0;
+            width  : 100%;
+        }
+        .dont-need-inside {
+            .left-text {
+                position : relative;
+
+                .center-content {
+                    @include breakpoint(medium) {
+                        width     : 80%;
+                    }
+                    position  : relative;
+                    left      : auto;
+                    top       : auto;
+                    transform : none;
+
+                    @include breakpoint(medium) {
+                        position          : absolute;
+                        left              : 50%;
+                        top               : 50%;
+                        transform         : translate(-50%, -50%);
+                        -webkit-transform : translate(-50%, -50%);
+                        -o-transform      : translate(-50%, -50%);
+                        -ms-transform     : translate(-50%, -50%);
+                    }
+                }
+            }
+
+        }
+        .orbit .orbit-container {
+            margin: 0;
+            position: relative;
+
+        }
+    }
+
+    section.what-retailers-doing {
+        @include breakpoint(medium) {
+            padding : 80px;
+        }
+        h2 {
+            margin-bottom : 40px;
+        }
+
+        .retailer-text {
+            margin-bottom : 40px;
+        }
+
+        .circle-div {
+            width         : 120px;
+            height        : 120px;
+            border-radius : 50%;
+            padding       : 0;
+        }
+
+        iframe {
+            width : 100%;
+        }
+
+        .retailer-orbit {
+            margin : 40px 0;
+
+            .orbit-bullets button {
+                border: 1px solid $brand-darkblue;
+                &.is-active {
+                    background-color : $brand-darkblue;
+                }
+            }
+
+            .owner-name {
+                color   : $brand-darkblue;
+                display : block;
+            }
+            .owner-desc {
+                margin : 40px 0;
+                font-size: 14px;
+            }
+            .owner-role, .owner-city {
+                font-weight : normal;
+            }
+        }
+    }
+
+    section.find-retailers {
+        @include breakpoint(small only) {
+            padding : 0;
+        }
+        @include breakpoint(medium) {
+            padding : 80px;
+        }
+        hr {
+            border-bottom : 1px solid #353A3E;
+            margin-left   : 40px;
+            margin-right  : 40px;
+        }
+        a {
+            font-weight : bold;
+        }
+        .stats-row {
+            @include breakpoint(large) {
+                margin-top: 5rem;
+            }
+        }
+
+        .center-content {
+            width     : 100%;
+            position  : relative;
+            left      : auto;
+            top       : auto;
+            transform : none;
+
+            @include breakpoint(large) {
+                position          : absolute;
+                left              : 50%;
+                top               : 50%;
+                transform         : translate(-50%, -50%);
+                -webkit-transform : translate(-50%, -50%);
+                -o-transform      : translate(-50%, -50%);
+                -ms-transform     : translate(-50%, -50%);
+            }
+        }
+    }
+}
