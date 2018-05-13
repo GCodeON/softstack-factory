@@ -21,8 +21,8 @@
         <div class="small-12 medium-6 columns small-centered">
             <div class="logo">
                 <a class="ga-logo" href="/" data-ga-category="Navigational Clicks" data-ga-action="Click Header" data-ga-label="Logo">
-                    <img src="/images/blank.png" data-interchange="[{{ asset('/images/CB_Logo.svg') }}, small],
-                            [{{ asset('/images/CB_Logo.svg') }}, medium]" alt="Counter Balance logo">
+                    <img src="/images/blank.png" data-interchange="[{{ asset('/images/SSF_white.png') }}, small],
+                            [{{ asset('/images/SSF_white.png') }}, medium]" alt="SoftStack Factory logo">
                 </a>
             </div>
             <div class="flex-container align-center icons">
@@ -33,7 +33,7 @@
         </div>
 
         <div class="medium-6 columns login ">
-            <span>Softstack Members <i class="fas fa-caret-right"></i> </span>
+            <span>Softstack Students<i class="fas fa-caret-right"></i> </span>
             <button type="button" class="login-btn">Login</button>
         </div>
 

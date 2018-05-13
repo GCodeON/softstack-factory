@@ -1,9 +1,9 @@
 <div class="title-bar" data-hide-for="medium" data-analytics-category="main">
     <div class="title-bar-left">
         <div class="logo">
-            <a class="ga-logo" href="/" data-analytics-click data-analytics-label="Counter Balance Logo">
-                <img src="/images/blank.png" data-interchange="[{{ asset('/images/ssf-logo.svg') }}, small],
-                [{{ asset('/images/ssf-logo.svg') }}, medium]" alt="SoftStack Factory logo">
+            <a class="ga-logo" href="/" data-analytics-click data-analytics-label="Softstack Logo">
+                <img src="/images/blank.png" data-interchange="[{{ asset('/images/softstack-logo.png') }}, small],
+                [{{ asset('/images/softstack-logo.png') }}, medium]" alt="SoftStack Factory logo">
             </a>
         </div>
     </div>
