@@ -8,7 +8,7 @@
     <section class="two-in-three-youth">
         <div class="row">
             <div class="columns text-center large-7 medium-8 small-12 medium-centered">
-                <img src="/images/three_youth.png" class="three-youth" alt="Two in three youth say they use non-cigarette tobacco products like e-cigs, little cigars, and chew because they come in the candy flavors they like">
+                <img src="/images/logo_vertical.jpg" class="banner-img-passion" alt="">
                 <p>
                     SoftStack Factory is a nonprofit focused on the technology job skills gap, applying an immersion bootcamp model with an on the job training spin, to train qualified young adults to meet the high demand jobs of the digital economy. 
                 </p>
