@@ -2,14 +2,14 @@
 <html>
 <head lang="en-US">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', '');
-    </script>
+    </script> -->
 
     @include('partials.metas')
     <script src="https://use.fontawesome.com/b9c1035ab3.js"></script>
@@ -24,7 +24,7 @@
         var CMS_PREFIX = 'test';
     </script>
     <!-- Facebook Pixel Code -->
-    <script>
+    <!-- <script>
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return;
             n = f.fbq = function () {
@@ -47,7 +47,7 @@
     </script>
     <noscript><img height="1" width="1" style="display:none"
                    src="https://www.facebook.com/tr?id=&ev=PageView&noscript=1"
-        /></noscript>
+        /></noscript> -->
     <!-- End Facebook Pixel Code -->
 
 </head>

@@ -1,10 +1,10 @@
 <div class="hero-bg hero">
 <div class="expanded row">
-    <div class="columns small-12 medium-5 left-container">
+    <div class="columns small-12 large-10 left-container">
         <div class="video-wrapper image-wrapper">
         @if(Request::is('/'))
             <video class="full-media" autoplay playsinline muted loop>
-                <source src="/videos/Softstack-intro.mp4" type="video/mp4">
+                <source src="/videos/softstack-factory-intro.mp4" type="video/mp4">
             </video>
 
             <div class="video-overlay"></div>
@@ -20,7 +20,7 @@
         @endif
         </div>
     </div>
-    <div class="columns small-12 medium-7 right-container">
+    <div class="columns small-12 large-2 right-container">
         <div class="right-content">
             @if($title)
                 <h1>{{$title}}</h1>

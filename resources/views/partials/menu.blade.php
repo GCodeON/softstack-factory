@@ -2,8 +2,8 @@
     <div class="title-bar-left">
         <div class="logo">
             <a class="ga-logo" href="/" data-analytics-click data-analytics-label="Counter Balance Logo">
-                <img src="/images/blank.png" data-interchange="[{{ asset('/images/CB_Logo.svg') }}, small],
-                [{{ asset('/images/CB_Logo.svg') }}, medium]" alt="Counter Balance logo">
+                <img src="/images/blank.png" data-interchange="[{{ asset('/images/ssf-logo.svg') }}, small],
+                [{{ asset('/images/ssf-logo.svg') }}, medium]" alt="SoftStack Factory logo">
             </a>
         </div>
     </div>

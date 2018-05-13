@@ -33,7 +33,7 @@
     background-color : transparent;
     li {
         a {
-            padding        : 0.7rem 2rem;
+            padding        : 0.5rem 1.2rem;
             color          : white;
             text-transform : uppercase;
             text-align     : center !important;
@@ -108,7 +108,7 @@
     .logo {
 
         img {
-            width : 80px;
+            width : 100%;
             @include breakpoint(medium) {
                 margin : 1rem;
             }
