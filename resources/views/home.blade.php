@@ -2,7 +2,7 @@
 
 @section ('content')
     <header>
-        @include('partials.hero', $hero)
+        @include('partials.home-hero', $hero)
     </header>
 
     <section class="two-in-three-youth">
