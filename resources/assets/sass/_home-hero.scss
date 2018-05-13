@@ -93,7 +93,8 @@ body.home {
     .hero-bg {
         background-image : url("/images/hero-bg.png");
         background-size  : cover;
-        background-color : maroon;
+        @include background-gradient(#b33035, maroon, 'vertical');
+        // background-color : maroon;
         .left-container {
             height   : 65vh;
             overflow : hidden;
