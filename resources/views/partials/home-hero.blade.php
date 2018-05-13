@@ -16,7 +16,7 @@
                                 <i class="fa fa-play-circle" aria-hidden="true"></i>
                             </a>
                         </div>
-                        <div class="title">Stand up for vermont’s youth</div>
+                        <div class="title">Watch Videos</div>
                     </div>
                 @endif
                 </div>
@@ -27,6 +27,7 @@
                         <h1>{{$title}}</h1>
                     @endif
                     <p> {{$content}}</p>
+                    <a href="/get-the-facts" class="button">Apply Here</a>
                 </div>
             </div>
 

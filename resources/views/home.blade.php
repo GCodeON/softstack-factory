@@ -10,9 +10,7 @@
             <div class="columns text-center large-7 medium-8 small-12 medium-centered">
                 <img src="/images/three_youth.png" class="three-youth" alt="Two in three youth say they use non-cigarette tobacco products like e-cigs, little cigars, and chew because they come in the candy flavors they like">
                 <p>
-                    Two in three youth who use tobacco say they use non-cigarette tobacco products 
-                    like e-cigs, little cigars, and chew because they come in the candy flavors they like. 
-                    These products entice kids into a lifetime of tobacco addiction.
+                    SoftStack Factory is a nonprofit focused on the technology job skills gap, applying an immersion bootcamp model with an on the job training spin, to train qualified young adults to meet the high demand jobs of the digital economy. 
                 </p>
                 <a href="/get-the-facts" class="button">Learn more</a>
             </div>
