@@ -1,13 +1,11 @@
-
-
-@mixin noHeroGradient() {
-    &::after {
-        background : none;
+body.home {
+    .title-bar-right {
+        @include breakpoint(large) {
+            ul {
+               display: inline-grid;
+            }
+        }
     }
-
-}
-.home-hero {
-
     // Video Component
     .hero-bg {
 
