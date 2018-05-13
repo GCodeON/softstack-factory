@@ -131,7 +131,10 @@ $body-padding-top-small : 60px !default;
         &.desktop {
             display : none;
         }
-        min-height : 500px;
+        min-height : 600px;
+        @include breakpoint(large) {
+            min-height : 500px;
+        }
         height     : 100%;
         left       : 50%;
         max-width  : none;
@@ -189,6 +192,7 @@ $body-padding-top-small : 60px !default;
         }
         @include breakpoint(small only) {
             margin-bottom: 10vh;
+            padding: 10px;
         }
     }
 }
