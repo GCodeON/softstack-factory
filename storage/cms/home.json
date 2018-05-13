@@ -9,65 +9,23 @@
   },
   "cards": [
     {
-      "content": "By making flavored tobacco products attractive to young people - they get hooked at an early age, and it is very hard to quit! Oral cancer is a very real concern",
-      "name": "Rhea Clark",
-      "location": "Wilmington",
+      "content": "I am glad to have been a student at SoftStack Factory and I think it’s amazing that such a business model exists.   Also, the team members and facilitators are one of the most dedicated and talented individuals I’ve learned from.  The actual class portion was fun and engaging, and my cohort members and I learned how to build an Ionic mobile app after only a few weeks.",
+      "name": "Jeanine Tran",
+      "location": "Software Developer at Infosys",
       "imageSrc": "",
       "imageAlt": ""
     },
     {
-      "content": "Flavored tobacco products provide an easy pathway to possible lifelong addiction for our kids to tobacco use",
-      "name": "Karen Avery",
-      "location": "West Dover",
+      "content": "Thanks to Softstack factory, I now have the tools to continue to learn and become a competent full stack engineer that uses his breadth knowledge to facilitate civic engagement and collective action focused on social and public health issues.",
+      "name": "Gera Soto",
+      "location": "Web Developer at Rescue Agency",
       "imageSrc": "",
       "imageAlt": ""
     },
     {
-      "content": "People are unaware that the effects are the same as smoking or chewing tobacco",
-      "name": "Amra Jusupovic",
-      "location": "Burlington",
-      "imageSrc": "",
-      "imageAlt": ""
-    },
-    {
-      "content": "The safety of my lungs",
-      "name": "Avery Smith",
-      "location": "Burlington",
-      "imageSrc": "",
-      "imageAlt": ""
-    },
-    {
-      "content": "",
-      "name": "",
-      "location": "",
-      "imageSrc": "/images/Card1.png",
-      "imageAlt": ""
-    },
-    {
-      "content": "Tobacco can damage your lungs, and overtime make it hard to breathe",
-      "name": "Madison Ashford",
-      "location": "Williamstown",
-      "imageSrc": "",
-      "imageAlt": ""
-    },
-    {
-      "content": "Because it causes seizures",
-      "name": "Starr Wolfe",
-      "location": "Brattleboro",
-      "imageSrc": "",
-      "imageAlt": ""
-    },
-    {
-      "content": "People should never consider vapors as a healthy alternative to smoking. 20 yrs from now we may find them more harmful than actual cigarettes",
-      "name": "Zachary Nazman",
-      "location": "Brattleboro",
-      "imageSrc": "",
-      "imageAlt": ""
-    },
-    {
-      "content": "It is very bad for you, highly addictive and may lead to smoking",
-      "name": "Rachel Kiddy",
-      "location": "Jacksonville",
+      "content": "I appreciate the patience shown by all three instructors, as this material is pretty daunting at first. Having instructors that maintained the composure of the class throughout, and continued to encourage us to tinker and break our code, was extremely beneficial.",
+      "name": "David Arias",
+      "location": "Recent SSF Grad",
       "imageSrc": "",
       "imageAlt": ""
     }

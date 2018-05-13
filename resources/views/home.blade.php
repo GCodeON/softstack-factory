@@ -21,8 +21,8 @@
     <section class="get-involved" data-analytics-label="getinvolvedandsupport" data-analytics-category="digital experience">
         <div class="row">
             <div class="columns text-center large-8 medium-10 small-12 medium-centered">
-                <h2 class="section-title">Get Involved</h2>
-                <p class="margin-1 margin-bottom-2">See why others support CounterBalance, then write and share your own reason below.</p>
+                <h2 class="section-title">Student Testimonals</h2>
+                <p class="margin-1 margin-bottom-2">Learn how SoftStack Factory impacts the local San Diego community.</p>
             </div>
         </div>
         @include('partials.involved-cards', $cards)

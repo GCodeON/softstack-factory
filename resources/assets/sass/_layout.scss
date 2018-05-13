@@ -13,10 +13,9 @@
     border          : 0;
     border-radius   : 5px;
     text-decoration : none;
-    @extend .dark-gradient;
+    @extend .light-gradient;
     &:hover, &:active, &:focus {
-        @include background-gradient(lighten(#446BB4, 10%), lighten(#2F3E94, 10%), 'vertical');
-
+        @extend .dark-gradient;
     }
     &.light-button {
         @extend .light-gradient;
