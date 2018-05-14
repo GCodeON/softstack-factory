@@ -43,7 +43,7 @@
                 <span aria-hidden="true">&times;</span>
             </button>
             <div class='embed-container'>
-                <iframe class="heroModal-iframe vimeo-analytics-iframe"  data-analytics-percents="10,20,30,40,50,60,70,80,90"  width="640" height="360" src="https://www.youtube.com/embed/7GH77LbWU_8?&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <iframe class="heroModal-iframe vimeo-analytics-iframe"  data-analytics-percents="10,20,30,40,50,60,70,80,90"  width="640" height="360" src="https://www.youtube.com/embed/7GH77LbWU_8?controls=0&amp;showinfo=0;autoplay=1" frameborder="0" allow="autoplay; encrypted-media" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
         </div>
     </div>
