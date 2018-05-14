@@ -50,6 +50,7 @@
                     <p class="main-fact">
                         Because of the increasing demand for software developers, digital economy jobs provide an exceptional opportunity for wage growth that will persist for many years.
                     </p>
+                    @include('partials.gears')
                 </div>
             </div>
             <div class="row stats-row">
@@ -78,7 +79,7 @@
         <div class="row">
             <div class="columns text-center medium-8 small-12 medium-centered">
                 <h2 class="section-title h2">Stay Tuned</h2>
-                <p class="margin-bottom-1">Sign up to stay up to date with SoftStack Factory</p>
+                <p class="margin-bottom-1">Sign up to receive program updates, opportunities, and resources. </p>
                 <spread-word></spread-word>
             </div>
         </div>
