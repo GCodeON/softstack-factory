@@ -13,7 +13,7 @@
                     </label>
                     <label class="text-left">
                         <input type="checkbox" v-model="data.permission" id="can-share" name="can-share" value="1" required>
-                        I would like to receive emails from CounterBalance
+                        I would like to receive emails from SoftStack Factory
                         <span class="form-error"> Checkbox is required</span>
                     </label>
                 </div>
@@ -28,7 +28,7 @@
                 <div class="row align-center">
                     <div class="column medium-9">
                         <h5>Thank you for signing up!</h5>
-                        <p class="font-bold">Stay tuned to learn how you can help spread the word</p>
+                        <p class="font-bold">Stay tuned to hear more about SoftStack Factory</p>
                     </div>
                 </div>
             </div>

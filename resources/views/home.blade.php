@@ -10,7 +10,7 @@
             <div class="columns text-center large-7 medium-8 small-12 medium-centered">
                 <img src="/images/logo_vertical.jpg" class="banner-img-passion" alt="">
                 <p>
-                    SoftStack Factory is a nonprofit focused on the technology job skills gap, applying an immersion bootcamp model with an on the job training spin, to train qualified young adults to meet the high demand jobs of the digital economy. 
+                    So you want to start a career in the Technology industry? If you are motivated and want to find a new passion for software development SoftStack Factory maybe the program for you!
                 </p>
                 <a href="/get-the-facts" class="button">Learn more</a>
             </div>
@@ -45,25 +45,25 @@
                         data-analytics-label="home-vermontyouthneedyourhelp"
                         data-analytics-category="fact"
                         data-analytics-action="element visible">
-                        VERMONT’S YOUTH NEED YOUR HELP
+                        Get your brain <br>in gear!
                     </h3>
                     <p class="main-fact">
-                        Underage tobacco use won’t go away on its own. In fact, it’s a big problem across our state. The numbers speak for themselves.
+                        Because of the increasing demand for software developers, digital economy jobs provide an exceptional opportunity for wage growth that will persist for many years.
                     </p>
                 </div>
             </div>
             <div class="row stats-row">
                 <div class="columns large-3 large-offset-3 small-8 small-centered">
-                    <h2 class="stat-header text-center">25%</h2>
-                    <p class="fact text-center">of Vermont youth who use tobacco believe flavored tobacco products are safer.</p>
+                    <h2 class="stat-header text-center">45%</h2>
+                    <p class="fact text-center">Computer occupations made up nearly 45 percent of STEM employment.</p>
                 </div>
                 <div class="columns large-3 small-8 small-centered">
-                    <h2 class="stat-header text-center">2x</h2>
-                    <p class="fact text-center">Vermont youth are TWICE as likely to try a flavored tobacco product over a non-flavored one than an adult is.</p>
+                    <h2 class="stat-header text-center">12-30%</h2>
+                    <p class="fact text-center">STEM occupations out-earn non- STEM fields by 12-30% across all education levels.</p>
                 </div>
                 <div class="columns large-3 small-8 small-centered">
-                    <h2 class="stat-header text-center">66%</h2>
-                    <p class="fact text-center">of Vermont adults believe that ALL flavored tobacco products should be illegal.</p>
+                    <h2 class="stat-header text-center">12.5%</h2>
+                    <p class="fact text-center">Employment in computer occupations is projected to increase by 12.5 percent from 2014 to 2024</p>
                 </div>
             </div>
             <div class="row button-row large-5 large-offset-6">
@@ -77,8 +77,8 @@
     <section class="spread-the-word">
         <div class="row">
             <div class="columns text-center medium-8 small-12 medium-centered">
-                <h2 class="section-title h2">Spread the Word</h2>
-                <p class="margin-bottom-1">Sign up to learn more about how you can help protect Vermont's youth from tobacco.</p>
+                <h2 class="section-title h2">Stay Tuned</h2>
+                <p class="margin-bottom-1">Sign up to stay up to date with SoftStack Factory</p>
                 <spread-word></spread-word>
             </div>
         </div>

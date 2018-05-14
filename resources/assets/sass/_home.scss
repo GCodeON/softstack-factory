@@ -25,9 +25,9 @@ section.need-your-help {
 
     @include breakpoint(large) {
         height              : 850px;
-        background          : url('/images/Map.svg');
+        background          : url('/images/hero-bg.png');
         background-repeat   : no-repeat;
-        background-position : 0 0;
+        background-position : -10vw 0;
         background-size     : 557px;
     }
 
