@@ -1,6 +1,15 @@
-.about {
+body.about {
+    .hero-bg {
+        background: linear-gradient(#b33035, maroon);
+        .right-container {
+            @include breakpoint(large) {
+            background-image: url(/images/hero-bg.png);
+            background-size: cover;
+            }
+        }
+    }
     .image-wrapper::before {
-        background-image : url('/images/about-main.png');
+        background-image : url('/images/banner-img-about.png');
     }
     section.grid-like {
         @include breakpoint(medium) {

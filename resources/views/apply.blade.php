@@ -1,4 +1,4 @@
-@extends('layouts.site', ['bodyClass' => 'get-involved'])
+@extends('layouts.site', ['bodyClass' => 'apply'])
 
 @section ('content')
 <header>

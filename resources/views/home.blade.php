@@ -45,7 +45,7 @@
                         data-analytics-label="home-vermontyouthneedyourhelp"
                         data-analytics-category="fact"
                         data-analytics-action="element visible">
-                        Get your brain <br>in gear!
+                        Get your yourself <br>in gear!
                     </h3>
                     <p class="main-fact">
                         Because of the increasing demand for software developers, digital economy jobs provide an exceptional opportunity for wage growth that will persist for many years.

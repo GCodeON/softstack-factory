@@ -34,12 +34,12 @@ class AppController extends Controller
                 'url'  => '/about',
             ],
             [
-                'name' => 'Get the Facts',
-                'url'  => '/get-the-facts',
+                'name' => 'Program',
+                'url'  => '/program',
             ],
             [
-                'name' => 'Get Involved',
-                'url'  => '/get-involved',
+                'name' => 'Apply',
+                'url'  => '/apply',
             ]
         ];
 

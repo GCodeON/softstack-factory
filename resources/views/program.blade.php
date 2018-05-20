@@ -1,4 +1,4 @@
-@extends('layouts.site', ['bodyClass' => 'get-the-facts'])
+@extends('layouts.site', ['bodyClass' => 'program'])
 
 @section ('content')
 <header>
