@@ -1,8 +1,9 @@
 <div class="title-bar" data-hide-for="medium">
     <div class="title-bar-left">
         <div class="logo">
-            <a href="/" data-ga-category="Navigational Clicks" data-ga-action="Click Header" data-ga-label="Logo">
-                <img src="/images/CB_Logo.svg" alt="site logo">
+            <a class="ga-logo" href="/" data-analytics-click data-analytics-label="Admin Logo">
+                <img src="/images/blank.png" data-interchange="[{{ asset('/images/softstack-logo.png') }}, small],
+                [{{ asset('/images/softstack-logo.png') }}, medium]" alt="SoftStack Factory logo">
             </a>
         </div>
     </div>

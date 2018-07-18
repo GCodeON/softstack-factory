@@ -1,12 +1,12 @@
-@extends('layouts.site', ['bodyClass' => 'apply'])
+@extends('layouts.site', ['bodyClass' => 'get-involved'])
 
 @section ('content')
 <header>
     @include('partials.hero', $hero)
 </header>
 <section data-analytics-label="getinvolvedandsupport" data-analytics-category="digital experience">
+    @include('partials.involved-cards')
     <div class="row">
-        @include('partials.involved-cards', $cards)
         <div class="columns text-center large-10 medium-10 small-12 medium-centered">
             <support-form data-analytics-visibility data-analytics-action="element visible"></support-form>
         </div>
@@ -44,7 +44,7 @@
                     Educate community leaders about options to decrease exposure to tobacco products and advertising—like content-neutral signage requirements or safety zones around schools and parks.
                 </li>
             </ul>
-            <select id="selectMe">
+            <select id="selectMe" data-analytics-change data-analytics-action="click" data-analytics-label="getinvolved-locatecommunitypartners" data-analytics-category="page-content">
                 <option value="option1">Select Your County</option>
                 <option value="addison">Addison County</option>
                 <option value="bennington">Bennington County</option>
@@ -70,26 +70,32 @@
             <img src="/images/help.png" alt="help" />
         </div>
 
-        <div class="column medium-7 medium-pull-5 small-12">
+        <div class="column medium-7 medium-pull-5 small-12" data-analytics-category="social-share" data-analytics-label="getinvolved-helpsoundthealarm">
             <h3>
                 <span>HELP SOUND</span>
                 THE ALARM
             </h3>
             <p>
                 Sharing this important information with your own social network is a simple way to help spread the word about how the tobacco industry targets Vermont’s youth.                 </p>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo URL::current(); ?>" target="_blank" class="button
-            square light-button"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com/share?text=Your+children+are+exposed+to+it+every+day+without+even+realizing+it.+In+hundreds+of+stores+across+Vermont%2C+tobacco+marketing+is+influencing+our+state’s+youth+to+smoke+their+first+cigarette%2C+leading+to+a+new+generation+of+addicted+Vermonters.&oq=Your+children+are+exposed+to+it+every+day+without+even+realizing+it.+In+hundreds+of+stores+across+Vermont%2C+tobacco+marketing+is+influencing+our+state’s+youth+to+smoke+their+first+cigarette%2C+leading+to+a+new+generation+of+addicted+Vermonters&url=<?php echo URL::current(); ?>" target="_blank"  class="button
-            square light-button"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo URL::current(); ?>" target="_blank"
+               data-analytics-click data-analytics-action="facebook share"
+               class="button square light-button"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/share?text=I+just+wrote+a+message+for+CounterBalance+to+show+my+concern.+Will+you+join+me+in+protecting+Vermont's+youth+from+being+targeted+by+the+tobacco+industry%3F&url=<?php echo URL::current(); ?>"
+               data-analytics-click data-analytics-action="twitter share"
+               target="_blank"  class="button square light-button"><i class="fab fa-twitter"></i></a>
         </div>
 
 
     </div>
     <div class="row">
-        <div class="column medium-5 small-12 image-full image-frame">
-            <img src="/images/are-you.png" alt="Are you?" />
+        <div class="column medium-6 small-12 video-frame">
+            <!-- <img src="/images/are-you.png" alt="Are you?" /> -->
+            <div class="responsive-embed">
+                <iframe class="full-video youtube-analytics-iframe" src="https://www.youtube.com/embed/oP9MkdBMZ9k?enablejsapi=1"
+                        data-analytics-percents="10,20,30,40,50,60,70,80,90" frameborder="0" allowfullscreen=""></iframe>
+            </div>
         </div>
-        <div class="column medium-7 small-12">
+        <div class="column medium-6 small-12">
             <h3>
                 <span>ARE YOU</span>
                 A RETAILER?
@@ -112,7 +118,6 @@
             </p>
             <a href="/get-the-facts#retailers-doing" class="button">Get The Facts</a>
         </div>
-
     </div>
 
 </section>

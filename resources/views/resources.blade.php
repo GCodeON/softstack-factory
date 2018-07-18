@@ -7,7 +7,7 @@
         </div>
     </header>
 
-    <section class="ecig-resources no-padding">
+    <!-- <section class="ecig-resources no-padding">
         <div class="row">
             <h2 class="small-12 columns">Video</h2>
         </div>
@@ -60,7 +60,7 @@
                 @include('partials.nav-card', $cards)
             @endforeach
         </div>
-    </section>
+    </section> -->
 
 
 

@@ -12,7 +12,7 @@
                 <p>
                     So you want to start a career in the Technology industry? If you are motivated and want to find a new passion for software development SoftStack Factory maybe the program for you!
                 </p>
-                <a href="/get-the-facts" class="button">Learn more</a>
+                <a href="/apply" class="button">Learn more</a>
             </div>
         </div>
     </section>
