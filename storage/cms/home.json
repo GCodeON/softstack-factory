@@ -1,4 +1,7 @@
 {
+  "data" : {
+    "cards" : "Support"
+  },
   "hero" : {
     "title": "",
     "content": "Want to learn how to code?"
@@ -6,28 +9,5 @@
   "support" : {
     "formHeader": "Why are you concerned about flavored tobacco products?",
     "showTotal" : "7"
-  },
-  "cards": [
-    {
-      "content": "I appreciate the patience shown by all three instructors, as this material is pretty daunting at first. Having instructors that maintained the composure of the class throughout, and continued to encourage us to tinker and break our code, was extremely beneficial.",
-      "name": "David Arias",
-      "location": "Recent SSF Grad",
-      "imageSrc": "/images/testimonials/david_arias.jpeg",
-      "imageAlt": ""
-    },
-    {
-      "content": "I am glad to have been a student at SoftStack Factory and I think it’s amazing that such a business model exists.   Also, the team members and facilitators are one of the most dedicated and talented individuals I’ve learned from.  The actual class portion was fun and engaging, and my cohort members and I learned how to build an Ionic mobile app after only a few weeks.",
-      "name": "Jeanine Tran",
-      "location": "Software Developer at Infosys",
-      "imageSrc": "/images/testimonials/jeanine_tran.jpeg",
-      "imageAlt": ""
-    },
-    {
-      "content": "Thanks to Softstack factory, I now have the tools to continue to learn and become a competent full stack engineer that uses his breadth knowledge to facilitate civic engagement and collective action focused on social and public health issues.",
-      "name": "Gera Soto",
-      "location": "Web Developer at Rescue Agency",
-      "imageSrc": "/images/testimonials/gera_soto.png",
-      "imageAlt": ""
-    }
-  ]
+  }
 }

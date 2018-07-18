@@ -1,6 +1,6 @@
 DEBUG: true
 DB:
-  NAME: 'counterbalance_dev'
+  NAME: 'boilerplate'
   HOST: 'localhost'
   USERNAME: 'root'
   PASSWORD: 'root'

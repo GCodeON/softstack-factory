@@ -1,46 +1,178 @@
 {
-  "hero" : {
-    "title"   : "",
-    "content" : ""
-  },
-  "generalCards": [
-    {
-      "title"     : "",
-      "imageSrc"  : "",
-      "imageAlt"  : "",
-      "content"   : " "
+    "hero"          : {
+        "title"   : "",
+        "content" : ""
     },
-    {
-      "title"      : "",
-      "imageSrc"   : "",
-      "imageAlt"   : "",
-      "content"    : " "
-    },
-    {
-      "title"      : "",
-      "imageSrc"   : "",
-      "imageAlt"   : "",
-      "content"    : " "
-    }
-  ],
-  "flavoredCards" : [
-    {
-      "title"     : "",
-      "imageSrc"  : "",
-      "imageAlt"  : "",
-      "content"   : " "
-    },
-    {
-      "title"      : "",
-      "imageSrc"   : "",
-      "imageAlt"   : "",
-      "content"    : " "
-    },
-    {
-      "title"      : "",
-      "imageSrc"   : "",
-      "imageAlt"   : "",
-      "content"    : " "
-    }
-  ]
+    "flavoredCards" : [
+        {
+            "title"       : "Flavored Tobacco Poster 1",
+            "imageSrc"    : "/images/resources/flavored/flavored_tobacco_1.jpg",
+            "imageAlt"    : "",
+            "content"     : " ",
+            "downloadURL" : "/images/resources/flavored_tobacco_1.pdf",
+            "linkURL"     : ""
+        },
+        {
+            "title"       : "Flavored Tobacco Poster 2",
+            "imageSrc"    : "/images/resources/flavored/flavored_tobacco_2.jpg",
+            "imageAlt"    : "",
+            "content"     : " ",
+            "downloadURL" : "/images/resources/flavored_tobacco_2.pdf",
+            "linkURL"     : ""
+        },
+        {
+            "title"       : "Flavored Tobacco Fact Sheet",
+            "imageSrc"    : "/images/resources/flavored/fact_sheet.jpg",
+            "imageAlt"    : "",
+            "content"     : " ",
+            "downloadURL" : "/images/resources/flavored/fact_sheet.jpg",
+            "linkURL"     : ""
+        },
+        {
+            "title"       : "Cigarillos Infographic",
+            "imageSrc"    : "/images/resources/general/cigarillos_sheet.jpg",
+            "imageAlt"    : "",
+            "content"     : " ",
+            "downloadURL" : "/images/resources/general/Cigarillos_Infographic.pdf",
+            "linkURL"     : ""
+        },
+        {
+            "title"       : "CounterBalance Fact Sheet",
+            "imageSrc"    : "/images/resources/general/fact_sheet.jpg",
+            "imageAlt"    : "",
+            "content"     : " ",
+            "downloadURL" : "/images/resources/general/fact_sheet.jpg",
+            "linkURL"     : ""
+        },
+        {
+            "title"       : "Cigarillo Poster",
+            "imageSrc"    : "/images/resources/general/cigarillo.jpg",
+            "imageAlt"    : "",
+            "content"     : " ",
+            "downloadURL" : "/images/resources/general/CB_Cigarillo_Poster.pdf",
+            "linkURL"     : ""
+        },
+
+        {
+            "title"       : "Tobacco Program Surveillance",
+            "imageSrc"    : "/images/resources/flavored/audit.jpg",
+            "imageAlt"    : "",
+            "content"     : " ",
+            "downloadURL" : "",
+            "linkURL"     : "http://healthvermont.gov/prevent/tobacco/surveillance.aspx"
+        },
+        {
+            "title"       : "Store Mapper",
+            "imageSrc"    : "/images/resources/flavored/store_mapper.jpg",
+            "imageAlt"    : "",
+            "content"     : " ",
+            "downloadURL" : "",
+            "linkURL"     : "http://countertools.org/"
+        }
+    ],
+
+    "generalCards"  : [
+        {
+            "title"       : "CounterTools Report",
+            "imageSrc"    : "/images/resources/general/VT-Data-Webinar_Final-Updated.jpg",
+            "imageAlt"    : "",
+            "content"     : "",
+            "downloadURL" : "/images/resources/general/VT Data Webinar_Final Updated.pptx",
+            "linkURL"     : ""
+        },
+
+
+        {
+            "title"       : "Proximity to Schools Infographic",
+            "imageSrc"    : "/images/resources/general/proximity_to_schools.jpg",
+            "imageAlt"    : "",
+            "content"     : "",
+            "downloadURL" : "/images/resources/general/Proximity_to_Schools_Infographic.pdf",
+            "linkURL"     : ""
+        },
+        {
+            "title"       : "Proximity to Schools Poster",
+            "imageSrc"    : "/images/resources/general/proximity.jpg",
+            "imageAlt"    : "",
+            "content"     : " ",
+            "downloadURL" : "/images/resources/general/CB_Proximity_to_Schools_Poster.pdf",
+            "linkURL"     : ""
+        }
+
+    ],
+
+    "pastCards" : [
+        {
+            "title"       : "Pharmacy Poster",
+            "imageSrc"    : "/images/resources/general/pharmacy.jpg",
+            "imageAlt"    : "",
+            "content"     : " ",
+            "downloadURL" : "/images/resources/general/CB_Pharmacy_Poster.pdf",
+            "linkURL"     : ""
+        },
+        {
+            "title"       : "Tobacco In Pharmacies Infographic",
+            "imageSrc"    : "/images/resources/general/pharmacies.jpg",
+            "imageAlt"    : "",
+            "content"     : " ",
+            "downloadURL" : "/images/resources/general/Tobacco_in_Pharmacies_Infographic.pdf",
+            "linkURL"     : ""
+        }
+
+    ],
+
+    "ecigCards" : [
+        {
+            "title"       : "CDC E-Cigarette Infographic",
+            "imageSrc"    : "/images/resources/ecig/Electronic Cigarettes Infographic.png",
+            "imageAlt"    : "",
+            "content"     : " ",
+            "downloadURL" : "/images/resources/ecig/Electronic Cigarettes Infographic.pdf",
+            "linkURL"     : ""
+        },
+        {
+            "title"       : "JUUL E-cigarettes Gain Popularity Among Youth Report",
+            "imageSrc"    : "/images/resources/ecig/juul e cig gain populatiry .png",
+            "imageAlt"    : "",
+            "content"     : " ",
+            "downloadURL" : "/images/resources/ecig/JUUL-E-cigarettes-Gain-Popularity-Among-Youth-But-Awareness-of-Nicotine-Presence-Remains-Low.pdf",
+            "linkURL"     : ""
+        },
+        {
+            "title"       : "Campaign for Tobacco-Free Kids JUUL Fact Sheet",
+            "imageSrc"    : "/images/resources/ecig/JUUL-Fact-Sheet-2-5-18.png",
+            "imageAlt"    : "",
+            "content"     : " ",
+            "downloadURL" : "/images/resources/ecig/JUUL-Fact-Sheet-2-5-18.pdf",
+            "linkURL"     : ""
+        }
+
+    ],
+
+    "videoCards" : [
+        {
+            "title"       : "Town Hall Video",
+            "imageSrc"    : "/images/resources/video/town.jpg",
+            "imageAlt"    : "",
+            "content"     : " ",
+            "downloadURL" : "",
+            "linkURL"     : "https://www.youtube.com/watch?v=_PhPMudBJw4"
+        },
+        {
+            "title"       : "Point of Sale Video",
+            "imageSrc"    : "/images/resources/video/retail.jpg",
+            "imageAlt"    : "",
+            "content"     : " ",
+            "downloadURL" : "",
+            "linkURL"     : "https://www.youtube.com/watch?v=Pddr_5IC0LY"
+        },
+        {
+            "title"       : "Retailers Video",
+            "imageSrc"    : "/images/resources/video/help-end.jpg",
+            "imageAlt"    : "",
+            "content"     : " ",
+            "downloadURL" : "",
+            "linkURL"     : "https://www.youtube.com/watch?v=oP9MkdBMZ9k"
+        }
+    ]
 }

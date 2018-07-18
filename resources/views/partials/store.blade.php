@@ -22,8 +22,8 @@
             </button>
         </div>--}}
         <div class="info info-4">
-            <button class="" type="button" data-tooltip tabindex="1" title="{{$tooltip4}}" data-position="bottom"
-                    data-alignment="left">
+            <button class="" type="button" data-tooltip tabindex="1" title="{!! $tooltip4 !!}" data-position="bottom"
+                    data-alignment="left" data-allow-html="true">
                 <img src="/images/cb.png">
             </button>
         </div>

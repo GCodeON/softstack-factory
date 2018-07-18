@@ -1,83 +1,33 @@
 <!DOCTYPE html>
-<html lang="{{ app()->getLocale() }}">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-
-
-    {{--<title>{{ config('app.name', 'Laravel') }}</title>--}}
-    <title>Over The Dose</title>
-
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+<html>
+<head lang="en-US">
+    @include('partials.metas')
+    <link rel="stylesheet" href="https://use.typekit.net/fha8kox.css">
+    <script src="https://use.fontawesome.com/b9c1035ab3.js"></script>
+    <link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}"/>
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    @stack('stylesheets')
+    @yield('css')
+    <script type="text/javascript">
+        var CMS_PREFIX = 'test';
+    </script>
 </head>
-<body>
-    <div id="app">
-        <nav class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
+<body class="{{$page['slug'] or 'generic'}} {{$bodyClass or ''}} brand-bg">
 
-                    <!-- Collapsed Hamburger -->
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
-                        <span class="sr-only">Toggle Navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+@include('partials.facebook', ['facebookId' => env('FACEBOOK_APP_ID')])
 
-                    <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
-                    </a>
-                </div>
+<div id="myApp">
+    @yield('main')
+</div>
 
-                <div class="collapse navbar-collapse" id="app-navbar-collapse">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="nav navbar-nav">
-                        &nbsp;
-                    </ul>
-
-                    <!-- Right Side Of Navbar -->
-                    <ul class="nav navbar-nav navbar-right">
-                        <!-- Authentication Links -->
-                        @guest
-                            <li><a href="{{ route('login') }}">Login</a></li>
-                            <li><a href="{{ route('register') }}">Register</a></li>
-                        @else
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                    {{ Auth::user()->name }} <span class="caret"></span>
-                                </a>
-
-                                <ul class="dropdown-menu" role="menu">
-                                    <li>
-                                        <a href="{{ route('logout') }}"
-                                            onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                            Logout
-                                        </a>
-
-                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                            {{ csrf_field() }}
-                                        </form>
-                                    </li>
-                                </ul>
-                            </li>
-                        @endguest
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        @yield('content')
-    </div>
-
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
+<script type="text/javascript" src="{{ mix('js/manifest.js') }}"></script>
+<script type="text/javascript" src="{{ mix('js/vendor.js') }}"></script>
+<script type="text/javascript" src="{{ mix('js/app.js') }}"></script>
+<script>
+    $(document).foundation();
+</script>
+@stack('scripts')
+@yield('javascript')
 
 </body>
 </html>

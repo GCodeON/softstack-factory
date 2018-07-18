@@ -16,11 +16,13 @@ $( document ).ready(function() {
 
     var $videoModal = $("#heroModal"),
         $iframe = $(".heroModal-iframe"),
-        player = new Vimeo.Player($iframe);
+        player;
 
-    if($videoModal.length <= 0){
+    if(! $videoModal.length || !$iframe.length){
         return;
     }
+
+    player = new Vimeo.Player($iframe);
 
     $videoModal.on("open.zf.reveal", function(){
         player.play();

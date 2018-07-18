@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 
 use App\Contact;
+use App\DataLoader;
 use App\Support;
 use Cswiley\Cms\Cms;
 use Illuminate\Http\Request;
@@ -40,6 +41,10 @@ class AppController extends Controller
             [
                 'name' => 'Apply',
                 'url'  => '/apply',
+            ],
+            [
+                'name' => 'Resources',
+                'url' => '/resources',
             ]
         ];
 
@@ -61,6 +66,12 @@ class AppController extends Controller
     {
         $data = $this->cms->get('home');
 
+        if (!empty($data["data"])) {
+            foreach ($data["data"] as $key => $class) {
+                $data[$key] = DataLoader::fetch($class);
+            }
+        }
+
         return view('home', $data);
     }
 
@@ -70,6 +81,13 @@ class AppController extends Controller
         $page         = $request->segment(1);
         $data         = $this->cms->get($page);
         $data['page'] = $page;
+
+        if (!empty($data["data"])) {
+            foreach ($data["data"] as $key => $class) {
+                $data[$key] = DataLoader::fetch($class);
+            }
+        }
+
         if (View::exists($page)) {
             return view($page, $data);
         }
@@ -98,7 +116,7 @@ class AppController extends Controller
         $success = $newContact->save();
 
         return response()->json([
-            'ok'   => $success,
+            'ok' => $success,
             'type' => 'newContact',
             'data' => $newContact->toArray()
         ]);
@@ -109,11 +127,11 @@ class AppController extends Controller
         $newSupport           = new Support;
         $newSupport->fullname = $this->request->input('fullname');
         $newSupport->message  = $this->request->input('message');
-        $newSupport->zip      = $this->request->input('zip');
+        $newSupport->location = $this->request->input('city');
         $success              = $newSupport->save();
 
         return response()->json([
-            'ok'      => $success,
+            'ok' => $success,
             'support' => $newSupport->toArray()
         ]);
     }

@@ -1,8 +1,9 @@
 <div class="experience support-cards hide">
 
     <div class="row gutter-small large-up-3 medium-up-2 small-up-1">
-        @foreach($cards as $items)
-            @include('partials.card', $items)
+        <?php //dd($cards); ?>
+        @foreach($cards as $card)
+            @include('partials.card', ["card" => $card])
         @endforeach
     </div>
 

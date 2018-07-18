@@ -1,9 +1,9 @@
 <template>
     <div id="spread-the-word-container">
         <form @submit.prevent data-abide novalidate method="post" action="" v-if="!formComplete"
-              data-mailchimp="">
+              data-mailchimp="https://gcodeon.us18.list-manage.com/subscribe/post?u=70eff57570475b3386e13f41d&amp;id=f8d384a4c6">
             <div id="form-alert" data-abide-error class="margin-bottom-2 alert callout" style="display: none;">
-                <p><i class="fi-alert"></i> <span class="message">There are some errors in your form</span></p>
+                <p><i class="fi-alert"></i> <span class="message">Please check the permissions box to sign up for our newsletter.</span></p>
             </div>
             <div class="row">
                 <div class="columns text-center large-9 medium-9 small-12">
@@ -28,7 +28,7 @@
                 <div class="row align-center">
                     <div class="column medium-9">
                         <h5>Thank you for signing up!</h5>
-                        <p class="font-bold">Stay tuned to hear more about SoftStack Factory</p>
+                        <p class="font-bold">Stay tuned for more program updates.</p>
                     </div>
                 </div>
             </div>

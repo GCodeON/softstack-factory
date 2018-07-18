@@ -204,7 +204,7 @@
         </div>
         <div class="columns text-center large-10 medium-10 small-12 medium-centered large-centered">
             <!-- Should use a seperated module -->
-            <div class="orbit retailer-orbit" role="region" aria-label="retailers" data-orbit>
+            <!-- <div class="orbit retailer-orbit" role="region" aria-label="retailers" data-orbit>
                 <div class="orbit-wrapper">
                     <div class="orbit-controls">
                         <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
@@ -287,7 +287,7 @@
                     <button data-slide="4"><span class="show-for-sr">Third slide details.</span></button>
                 </nav>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 

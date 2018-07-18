@@ -1,6 +1,6 @@
 <template>
     <div id="contact-form-container" class="margin-top-2">
-        <form id="contact-us-form" data-mailchimp="" data-abide novalidate
+        <form id="contact-us-form" data-mailchimp="https://rescueagency.us9.list-manage.com/subscribe/post-json?u=cf08e6aa3d7ef4ad33c4e0a9d&amp;id=2fc6b3060c" data-abide novalidate
               method="post" action="" v-if="!formComplete">
 
             <div class="row align-center">

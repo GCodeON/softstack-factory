@@ -18,6 +18,7 @@ require('foundation-sites');
 require('lodash');
 require('./country-dropdown.js');
 require('./cards.js');
+require('./admin.js');
 require('./hero-modal.js');
 require('./foundation-abide-patterns');
 
@@ -46,6 +47,7 @@ function ajaxCsrfSetup() {
     });
 }
 
+
 function init() {
     $(function () {
         // Initialize everything here
@@ -53,6 +55,7 @@ function init() {
         // gaEvents.bind('[data-ga-category]');
         analytics.bindAnalyticsAttributes();
         analytics.bindVimeoVideos();
+        analytics.bindYoutubeVideos();
     });
 }
 

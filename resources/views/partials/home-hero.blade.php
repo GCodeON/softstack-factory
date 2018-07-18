@@ -27,7 +27,7 @@
                         <h1>{{$title}}</h1>
                     @endif
                     <p> {{$content}}</p>
-                    <a href="/get-the-facts" class="button">Apply Here</a>
+                    <a href="/apply" class="button">Apply Here</a>
                 </div>
             </div>
 
