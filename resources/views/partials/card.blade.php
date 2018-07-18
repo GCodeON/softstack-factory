@@ -1,9 +1,10 @@
+
 <div class="column column-block card-block">
     @if(($loop->iteration  % 5 == 0) and ($card->image))
         <div class="card with-image" style='background-image: url("{{$card->image}}")'>
             @else
                 <div class="card">
-                    <img class="quote" src="/images/quote.svg">
+                    <img class="quote" src="/images/testimonials/{{$card->fullname}}.jpeg">
                     <div class="card-section">
                         <p>{{$card->message}}</p>
                         <h4>{{$card->fullname}}</h4>
