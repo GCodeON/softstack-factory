@@ -2,7 +2,7 @@
     <div id="support-form-container">
         <form @submit.prevent data-abide novalidate class="text-white">
             <div class="form-section section-one" v-if="!formComplete">
-                <p>Why do you support protecting Vermont’s youth from tobacco?</p>
+                <p>Support SoftStack Factory by leaving a testimonial</p>
                 <textarea rows="4" cols="50"
                           v-model="data.message"
                           id="why-support-textarea"
@@ -15,7 +15,7 @@
                         <input type="text" v-model="data.fullname" name="full" required>
                     </label>
                     <label id="zip">
-                        City:
+                        Job Title:
                         <input type="text" v-model="data.city" required>
                     </label>
 
@@ -34,7 +34,7 @@
                     <div class="row align-center">
                         <div class="column medium-9">
                             <h5>Thank You!</h5>
-                            <p>Ready to strengthen your support? Help prevent the next generation of tobacco users when you <strong>share this message.</strong>
+                            <p>Your testimonial has been submitted!</strong>
                             </p>
                             <a @click.prevent="shareFacebook()" target="_blank"
                                data-analytics-click data-analytics-action="facebook share"
@@ -54,7 +54,7 @@
     var analytics     = require("../analytics.js"),
         FacebookShare = require('../facebook-share'),
         vue,
-        twitterCopy   = 'Your children are exposed to it every day without even realizing it. In hundreds of stores across Vermont, tobacco marketing is influencing our state’s youth to smoke their first cigarette, leading to a new generation of addicted Vermonters.';
+        twitterCopy   = 'Want to learn how to code? Apply now!';
 
     function firePixel() {
         if (window.fbq) {
@@ -120,8 +120,8 @@
                 var host    = [location.protocol, location.host].join('//'),
                     options = {
                         'og:url'         : host + '#get-involved',
-                        'og:title'       : 'CounterBalance Vermont',
-                        'og:description' : 'I just wrote a message for CounterBalance to show my concern. Will you join me in protecting Vermont’s youth from being targeted by the tobacco industry?',
+                        'og:title'       : 'SoftStack Factory',
+                        'og:description' : 'Want to learn how to code? Apply now!',
                         'og:image'       : host + '/images/social-share.jpg',
                         'og:image:height': 630,
                         'og:image:width' : 1200

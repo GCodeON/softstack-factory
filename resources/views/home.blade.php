@@ -29,7 +29,7 @@
 
         <div class="row">
             <div class="columns text-center large-10 medium-10 small-12 medium-centered">
-                <support-form></support-form>
+                <testimonials-form></testimonials-form>
             </div>
         </div>
 
