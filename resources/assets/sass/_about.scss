@@ -9,7 +9,8 @@ body.about {
         }
     }
     .image-wrapper::before {
-        background-image : url('/images/banner-img-about.png');
+        background-image : url('/images/SSF_white.png');
+        top: 0px;
     }
     section.grid-like {
         @include breakpoint(medium) {
