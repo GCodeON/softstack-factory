@@ -16,19 +16,7 @@
             </p>
         </div>
     </div>
-    <div class="gear-container">
-        <div class="gear">
-            <div class="center"></div>
-            <div class="tooth"></div>
-            <div class="tooth"></div>
-            <div class="tooth"></div>
-            <div class="tooth"></div>
-            <div class="tooth"></div>
-            <div class="tooth"></div>
-            <div class="tooth"></div>
-            <div class="tooth"></div>
-        </div>
-    </div>
+    @include('partials.gear')
     <div class="team row">
         <div class="columns text-center large-6 medium-6 small-12 medium-centered text-col">
             <!-- <img src="images/magnet.svg" alt="ATTRACTIVE" /> -->
@@ -46,7 +34,7 @@
                             <div class="slide-content">
                                 <img class="quote" src="/images/team/harold.jpeg"></img>
                                 <h3>
-                                    <strong>Harold Gottschalks</strong>
+                                    <strong>Harold Gottschalk</strong>
                                 </h3>
                                 <p>Founder</p>
                             </div>
@@ -65,7 +53,7 @@
                             <div class="slide-content">
                                 <img class="quote" src="/images/team/julia.jpeg"></img>
                                 <h3>
-                                    <strong>Julia Gottschalks</strong>
+                                    <strong>Julia Gottschalk</strong>
                                 </h3>
                                 <p>Executive Assistant</p>
                             </div>
