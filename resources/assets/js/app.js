@@ -31,7 +31,7 @@ require('./foundation-abide-patterns');
 // Vue.component('get-involved', require('./components/SupportApp.vue'));
 Vue.component('contact-form', require('./components/ContactForm.vue'));
 Vue.component('spread-word', require('./components/SpreadWord.vue'));
-Vue.component('testimonials', require('./components/TestimonialsForm.vue'));
+Vue.component('testimonials-form', require('./components/TestimonialsForm.vue'));
 
 //"el" stands for "element"
 const app = new Vue({
