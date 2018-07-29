@@ -33,7 +33,7 @@ body.about {
             color : $brand-grey;
         }
         .quote {
-            max-width : 200px;
+            max-width : 150px;
             border-radius: 50%;
             margin    : 2rem auto 1rem;
         }
@@ -53,6 +53,79 @@ body.about {
                 padding     : 80px;
                 line-height : 1.5;
             }
+        }
+    }
+    div.team {
+        .orbit-wrapper {
+            transform: translateY(25px);
+            .orbit-container {
+                min-height: 335px;
+            }
+        }
+        h3 {
+            padding-top: 40px;
+        }
+    }
+    .gear-container {
+        display: flex;
+        position: absolute;
+        left: 0;
+        right: 0;
+        transform: translateY(30px);
+        .gear{
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            background: #ea823e;
+            border-radius: 50%;
+            animation-name: spin;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+          }
+          
+          .gear .center{
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            z-index: 10;
+            width: 100px;
+            height: 100px;
+            background: white;
+            border-radius: 50%;
+          }
+          
+          .tooth{
+            position: absolute;
+            top: -25px;
+            left: 75px;
+            z-index: 1;
+            width: 45px;
+            height: 250px;
+            background: #ea823e;
+          }
+          
+          .tooth:nth-child(2){
+            transform: rotate(45deg);
+          }
+          
+          .tooth:nth-child(3){
+            transform: rotate(90deg);
+          }
+          
+          .tooth:nth-child(4){
+            transform: rotate(135deg);
+          }
+          
+          @keyframes spin {
+            from {transform: rotate(0deg); }
+            to {transform: rotate(360deg);}
+        }
+    }
+    .involve {
+        @include breakpoint(medium) {
+            margin-top: 2em;
         }
     }
 }

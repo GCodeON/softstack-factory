@@ -6,7 +6,7 @@
 </header>
 
 <section class="grid-like">
-    <div class="row">
+    <div class="mission row">
         <div class="column small-12 medium-7 medium-centered text-center">
             <h3>
                  Our Mission
@@ -16,7 +16,20 @@
             </p>
         </div>
     </div>
-    <div class="row">
+    <div class="gear-container">
+        <div class="gear">
+            <div class="center"></div>
+            <div class="tooth"></div>
+            <div class="tooth"></div>
+            <div class="tooth"></div>
+            <div class="tooth"></div>
+            <div class="tooth"></div>
+            <div class="tooth"></div>
+            <div class="tooth"></div>
+            <div class="tooth"></div>
+        </div>
+    </div>
+    <div class="team row">
         <div class="columns text-center large-6 medium-6 small-12 medium-centered text-col">
             <!-- <img src="images/magnet.svg" alt="ATTRACTIVE" /> -->
             <!-- <h3 class="section-title">SoftStack  Factory Team</h3> -->
@@ -32,18 +45,18 @@
                         <li class="orbit-slide is-active">
                             <div class="slide-content">
                                 <img class="quote" src="/images/team/harold.jpeg"></img>
-                                <p>
+                                <h3>
                                     <strong>Harold Gottschalks</strong>
-                                </p>
+                                </h3>
                                 <p>Founder</p>
                             </div>
                         </li>
                         <li class="orbit-slide">
                             <div class="slide-content">
                                 <img class="quote" src="/images/team/peter.jpg"></img>
-                                <p>
+                                <h3>
                                     <strong>Peter Horton</strong>
-                                </p>
+                                </h3>
                                 <p>Program Director</p>
                             </div>
                         </li>
@@ -51,9 +64,9 @@
                         <li class="orbit-slide">
                             <div class="slide-content">
                                 <img class="quote" src="/images/team/julia.jpeg"></img>
-                                <p>
+                                <h3>
                                     <strong>Julia Gottschalks</strong>
-                                </p>
+                                </h3>
                                 <p>Executive Assistant</p>
                             </div>
                         </li>
@@ -68,7 +81,7 @@
             </div>
         </div>
     </div>
-    <div class="row margin-top-2">
+    <div class="involve row">
         <div class="column medium-7">
         <h3>
                 More than a Coding Bootcamp!
