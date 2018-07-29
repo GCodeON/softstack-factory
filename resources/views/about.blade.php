@@ -7,7 +7,7 @@
 
 <section class="grid-like">
     <div class="row">
-        <div class="column small-12 medium-7 medium-push-5">
+        <div class="column small-12 medium-7 medium-centered text-center">
             <h3>
                  Our Mission
             </h3>
@@ -15,8 +15,57 @@
                 SoftStack Factory is a nonprofit focused on the technology job skills gap, applying an immersion bootcamp model with an on the job training spin, to train qualified young adults to meet the high demand jobs of the digital economy.
             </p>
         </div>
-        <div class="column small-12 medium-5 medium-pull-7 image-full">
-            <img src="/images/banner-img-volunteer.png" alt="" />
+    </div>
+    <div class="row">
+        <div class="columns text-center large-6 medium-6 small-12 medium-centered text-col">
+            <!-- <img src="images/magnet.svg" alt="ATTRACTIVE" /> -->
+            <!-- <h3 class="section-title">SoftStack  Factory Team</h3> -->
+
+            <!-- Should use a seperated module -->
+            <div class="orbit retailer-orbit" role="region" aria-label="retailers" data-orbit>
+                <div class="orbit-wrapper">
+                    <div class="orbit-controls">
+                        <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                        <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                    </div>
+                    <ul class="orbit-container">
+                        <li class="orbit-slide is-active">
+                            <div class="slide-content">
+                                <img class="quote" src="/images/team/harold.jpeg"></img>
+                                <p>
+                                    <strong>Harold Gottschalks</strong>
+                                </p>
+                                <p>Founder</p>
+                            </div>
+                        </li>
+                        <li class="orbit-slide">
+                            <div class="slide-content">
+                                <img class="quote" src="/images/team/peter.jpg"></img>
+                                <p>
+                                    <strong>Peter Horton</strong>
+                                </p>
+                                <p>Program Director</p>
+                            </div>
+                        </li>
+
+                        <li class="orbit-slide">
+                            <div class="slide-content">
+                                <img class="quote" src="/images/team/julia.jpeg"></img>
+                                <p>
+                                    <strong>Julia Gottschalks</strong>
+                                </p>
+                                <p>Executive Assistant</p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <nav class="orbit-bullets">
+                    <button data-slide="0"><span class="show-for-sr">First slide details.</span></button>
+                    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                </nav>
+            </div>
         </div>
     </div>
     <div class="row margin-top-2">
@@ -30,7 +79,7 @@
             <a href="/get-involved" class="button">Get Involved</a>
         </div>
         <div class="column medium-5 hide-for-small-only">
-            <img src="/images/banner-group.png" alt=""/>
+            <img src="/images/banner-img-volunteer.png" alt="" />
         </div>
     </div>
 

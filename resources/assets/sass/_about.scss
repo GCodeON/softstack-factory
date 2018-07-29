@@ -14,9 +14,7 @@ body.about {
     }
     section.grid-like {
         @include breakpoint(medium) {
-            .row:nth-child(2) {
                 margin-top : 5rem;
-            }
         }
         h3 {
             color         : $brand-grey;
@@ -33,6 +31,11 @@ body.about {
         }
         p {
             color : $brand-grey;
+        }
+        .quote {
+            max-width : 200px;
+            border-radius: 50%;
+            margin    : 2rem auto 1rem;
         }
     }
 
