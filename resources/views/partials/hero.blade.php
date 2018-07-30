@@ -23,9 +23,9 @@
         <div class="columns small-12 medium-7 right-container">
             <div class="right-content">
                 @if($title)
-                    <h1>{{$title}}</h1>
+                    <h1>{!! $title !!}</h1>
                 @endif
-                <p> {{$content}}</p>
+                <p> {!! $content !!}</p>
             </div>
         </div>
 

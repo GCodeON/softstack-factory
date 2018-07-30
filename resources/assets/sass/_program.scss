@@ -10,7 +10,7 @@ body.program{
             font-size   : 25px;
             line-height : 1.2;
             @include breakpoint(medium) {
-                text-align  : right;
+                text-align  : center;
             }
         }
         .highlight {
