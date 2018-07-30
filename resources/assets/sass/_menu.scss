@@ -35,9 +35,6 @@
         a {
             padding        : 0.5rem 1.2rem;
             color          : white;
-            @include breakpoint(medium only) {
-                color          : black;
-            }
             text-transform : uppercase;
             text-align     : center !important;
             &:hover,

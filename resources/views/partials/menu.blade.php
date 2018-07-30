@@ -27,7 +27,7 @@
     <ul class="dropdown menu vertical medium-horizontal ">
         @foreach($menu as $item)
             <li class="{{ $item['active'] ? 'active' : '' }}">
-                <a data-analytics-click data-analytics-label="{{$item['name']}}" href="{{$item['url']}}">{{$item['name']}}</a>
+                <a data-analytics-click data-analytics-label="{{$item['name']}}" href="{{$item['url']}}" class="home">{{$item['name']}}</a>
             </li>
         @endforeach
     </ul>

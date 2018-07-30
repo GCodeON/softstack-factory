@@ -1,115 +1,120 @@
-section.two-in-three-youth {
-    margin-top : 80px;
-    padding    : 0;
-    img {
-        width : 212px;
-        @include breakpoint(medium) {
-            width : 250px;
+body.home {
+    
+    section.two-in-three-youth {
+        margin-top : 80px;
+        padding    : 0;
+        img {
+            width : 212px;
+            @include breakpoint(medium) {
+                width : 250px;
+            }
+        }
+        p {
+            margin      : 3rem 0;
+            font-weight : normal;
+        }
+        button {
+            margin-top : 40px;
         }
     }
-    p {
-        margin      : 3rem 0;
-        font-weight : normal;
-    }
-    button {
-        margin-top : 40px;
-    }
-}
-
-
-section.need-your-help {
-    position : relative;
-    @include breakpoint(large) {
-        margin-top : 80px;
-    }
-
-    @include breakpoint(large) {
-        height              : 850px;
-        background          : url('/images/hero-bg.png');
-        background-repeat   : no-repeat;
-        background-position : -10vw 0;
-        background-size     : 557px;
-    }
-
-    .section-content {
-        margin   : 0;
+    
+    
+    section.need-your-help {
         position : relative;
-
         @include breakpoint(large) {
-            margin-top : 2rem;
-            position   : absolute;
-            right      : 10vw;
+            margin-top : 80px;
         }
-    }
-
-    .stats-row {
-        width        : 100%;
-        margin-right : auto;
-
+    
         @include breakpoint(large) {
-            margin-right : 0;
-            width        : 90%;
+            height              : 850px;
+            background          : url('/images/hero-bg.png');
+            background-repeat   : no-repeat;
+            background-position : -10vw 0;
+            background-size     : 557px;
+        }
+    
+        .section-content {
+            margin   : 0;
+            position : relative;
+    
+            @include breakpoint(large) {
+                margin-top : 2rem;
+                position   : absolute;
+                right      : 10vw;
+            }
+        }
+    
+        .stats-row {
+            width        : 100%;
+            margin-right : auto;
+    
+            @include breakpoint(large) {
+                margin-right : 0;
+                width        : 90%;
+            }
+        }
+    
+        p {
+            font-weight : normal;
+            &.main-fact {
+                margin-top : 2rem;
+            }
+            &.fact {
+                margin-top : 1rem;
+            }
+        }
+    
+        .stat-header {
+            font-weight : 800;
+            font-size   : 45px;
+            margin-top  : 40px;
+        }
+    
+        .percent {
+            font-size : 30px;
+        }
+    
+        .learn-more-btn {
+            margin-top : 5rem;
+        }
+    
+    }
+    
+    section.spread-the-word {
+        color   : white;
+        padding : 80px 0;
+        @include breakpoint(medium) {
+            margin-top : 80px;
+        }
+        @extend .light-gradient;
+    
+        h2, label {
+            color : white;
+    
+            &.is-invalid-label {
+                //color: red;
+            }
+        }
+    
+        [type='text'] {
+            height        : 67%;
+            border-radius : 5px;
+            padding-left  : 20px;
+            //font-size     : 14px;
+            //font-style    : italic;
+            border        : 1px solid white;
+        }
+    
+        .explain {
+            font-weight : normal;
+            line-height : 1;
+            display     : inline;
         }
     }
-
-    p {
-        font-weight : normal;
-        &.main-fact {
-            margin-top : 2rem;
-        }
-        &.fact {
-            margin-top : 1rem;
-        }
-    }
-
-    .stat-header {
-        font-weight : 800;
-        font-size   : 45px;
-        margin-top  : 40px;
-    }
-
-    .percent {
-        font-size : 30px;
-    }
-
-    .learn-more-btn {
-        margin-top : 5rem;
-    }
+    
+    
+    
+    
+    
 
 }
-
-section.spread-the-word {
-    color   : white;
-    padding : 80px 0;
-    @include breakpoint(medium) {
-        margin-top : 80px;
-    }
-    @extend .light-gradient;
-
-    h2, label {
-        color : white;
-
-        &.is-invalid-label {
-            //color: red;
-        }
-    }
-
-    [type='text'] {
-        height        : 67%;
-        border-radius : 5px;
-        padding-left  : 20px;
-        //font-size     : 14px;
-        //font-style    : italic;
-        border        : 1px solid white;
-    }
-
-    .explain {
-        font-weight : normal;
-        line-height : 1;
-        display     : inline;
-    }
-}
-
-
-
-
