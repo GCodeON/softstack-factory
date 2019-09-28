@@ -24,6 +24,59 @@ class SupportController extends Controller
         });
     }
 
+    private function setMenu($request, $user)
+    {
+        // @todo menu urls
+        $menu = [
+            [
+                'name' => 'Resources',
+                'url' => '/admin/resources',
+            ],
+            [
+                'name' => 'Support',
+                'url' => '/admin/support',
+                'role' => 'admin'
+            ],
+            [
+                'name' => 'Activity',
+                'url' => '/admin/activity',
+                'role' => 'admin'
+            ],
+            [
+                'name' => 'Users',
+                'url' => '/admin/users',
+                'role' => 'admin'
+            ],
+            [
+                'name' => 'Logout',
+                'url' => '/admin/logout',
+            ],
+        ];
+
+        $menu = array_filter($menu, function ($menu) use ($user) {
+            if ($user->hasRole('admin')) {
+                return true;
+            }
+
+            return empty($menu['role']) || $menu['role'] === 'manager';
+
+        });
+
+        $url     = $request->segment(1);
+        $pattern = !empty($url) ? "/$url/" : false;
+        $menu    = array_map(function ($n) use ($pattern) {
+            $n['active'] = false;
+            if ($pattern !== false && preg_match($pattern, $n['url'])) {
+                $n['active'] = true;
+            }
+
+            return $n;
+        }, $menu);
+
+        view()->share('userAccount', $user->toArray());
+        view()->share('menu', $menu);
+    }
+
 
     function saveSupport($id, Request $request)
     {
